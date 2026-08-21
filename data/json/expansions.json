@@ -1,0 +1,1040 @@
+{
+  "expansions": [
+    {
+      "name": "Advent Calendar",
+      "image": "Advent_Calendar.svg"
+    },
+    {
+      "name": "Afro House",
+      "image": "Afro_House.svg"
+    },
+    {
+      "name": "Afrobeats",
+      "image": "Afrobeats.svg"
+    },
+    {
+      "name": "All About the Bass",
+      "image": "All_About_the_Bass.svg"
+    },
+    {
+      "name": "Ambient Sci Fi",
+      "image": "Ambient_Sci_Fi.svg"
+    },
+    {
+      "name": "Analog",
+      "image": "Analog.svg"
+    },
+    {
+      "name": "Analog 2",
+      "image": "Analog_2.svg"
+    },
+    {
+      "name": "Analog 3",
+      "image": "Analog_3.svg"
+    },
+    {
+      "name": "Analog DrumKits",
+      "image": "Analog_DrumKits.svg"
+    },
+    {
+      "name": "Apres Ski",
+      "image": "Apres_Ski.svg"
+    },
+    {
+      "name": "Apres Ski 2",
+      "image": "Apres_Ski_2.svg"
+    },
+    {
+      "name": "Artist Series 7 Skies",
+      "image": "Artist_Series_7_Skies.svg"
+    },
+    {
+      "name": "Artist Series 7 Skies 2",
+      "image": "Artist_Series_7_Skies_2.svg"
+    },
+    {
+      "name": "Artist Series Armin van Buuren",
+      "image": "Artist_Series_Armin_van_Buuren.svg"
+    },
+    {
+      "name": "Artist Series Bodybangers",
+      "image": "Artist_Series_Bodybangers.svg"
+    },
+    {
+      "name": "Artist Series Klaas",
+      "image": "Artist_Series_Klaas.svg"
+    },
+    {
+      "name": "Artist Series KSHMR",
+      "image": "Artist_Series_KSHMR.svg"
+    },
+    {
+      "name": "Artist Series Steve Aoki",
+      "image": "Artist_Series_Steve_Aoki.svg"
+    },
+    {
+      "name": "Artist Series Tiesto",
+      "image": "Artist_Series_Tiesto.svg"
+    },
+    {
+      "name": "Bass",
+      "image": "Bass.svg"
+    },
+    {
+      "name": "Bass 2",
+      "image": "Bass_2.svg"
+    },
+    {
+      "name": "Bass House",
+      "image": "Bass_House.svg"
+    },
+    {
+      "name": "Bigtone Signature 1",
+      "image": "Bigtone_Signature_1.svg"
+    },
+    {
+      "name": "Bigtone Signature 2",
+      "image": "Bigtone_Signature_2.svg"
+    },
+    {
+      "name": "Bigtone Signature 3",
+      "image": "Bigtone_Signature_3.svg"
+    },
+    {
+      "name": "Bigtone Signature 4",
+      "image": "Bigtone_Signature_4.svg"
+    },
+    {
+      "name": "Breaks and Risers",
+      "image": "Breaks_and_Risers.svg"
+    },
+    {
+      "name": "Chillout Lounge",
+      "image": "Chillout_Lounge.svg"
+    },
+    {
+      "name": "Chiptunes",
+      "image": "Chiptunes.svg"
+    },
+    {
+      "name": "Christmas",
+      "image": "Christmas.svg"
+    },
+    {
+      "name": "Christmas 2013",
+      "image": "Christmas_2013.svg"
+    },
+    {
+      "name": "Christmas 2014",
+      "image": "Christmas_2014.svg"
+    },
+    {
+      "name": "Christmas 2015",
+      "image": "Christmas_2015.svg"
+    },
+    {
+      "name": "Christmas 2016",
+      "image": "Christmas_2016.svg"
+    },
+    {
+      "name": "Christmas 2017",
+      "image": "Christmas_2017.svg"
+    },
+    {
+      "name": "Christmas 2018",
+      "image": "Christmas_2018.svg"
+    },
+    {
+      "name": "Christmas 2019",
+      "image": "Christmas_2019.svg"
+    },
+    {
+      "name": "Christmas 2020",
+      "image": "Christmas_2020.svg"
+    },
+    {
+      "name": "Christmas 2021",
+      "image": "Christmas_2021.svg"
+    },
+    {
+      "name": "Christmas 2022",
+      "image": "Christmas_2022.svg"
+    },
+    {
+      "name": "Christmas 2023",
+      "image": "Christmas_2023.svg"
+    },
+    {
+      "name": "Christmas 2024",
+      "image": "Christmas_2024.svg"
+    },
+    {
+      "name": "Christmas 2025",
+      "image": "Christmas_2025.svg"
+    },
+    {
+      "name": "Christmas 2026",
+      "image": "Christmas_2026.svg"
+    },
+    {
+      "name": "Classic Dance",
+      "image": "Classic_Dance.svg"
+    },
+    {
+      "name": "Classic Trance",
+      "image": "Classic_Trance.svg"
+    },
+    {
+      "name": "Commercial Dance",
+      "image": "Commercial_Dance.svg"
+    },
+    {
+      "name": "Commercial Electro",
+      "image": "Commercial_Electro.svg"
+    },
+    {
+      "name": "Commercial Electro 2",
+      "image": "Commercial_Electro_2.svg"
+    },
+    {
+      "name": "Crank",
+      "image": "Crank.svg"
+    },
+    {
+      "name": "Crank 2",
+      "image": "Crank_2.svg"
+    },
+    {
+      "name": "Cyberpunk",
+      "image": "Cyberpunk.svg"
+    },
+    {
+      "name": "Cyberpunk 2",
+      "image": "Cyberpunk_2.svg"
+    },
+    {
+      "name": "Dance 1",
+      "image": "Dance_1.svg"
+    },
+    {
+      "name": "Dance 2",
+      "image": "Dance_2.svg"
+    },
+    {
+      "name": "Dance 3",
+      "image": "Dance_3.svg"
+    },
+    {
+      "name": "Dance Drums",
+      "image": "Dance_Drums.svg"
+    },
+    {
+      "name": "Dance Orchestra",
+      "image": "Dance_Orchestra.svg"
+    },
+    {
+      "name": "Dark Planet",
+      "image": "Dark_Planet.svg"
+    },
+    {
+      "name": "Deep House",
+      "image": "Deep_House.svg"
+    },
+    {
+      "name": "Deep House 2",
+      "image": "Deep_House_2.svg"
+    },
+    {
+      "name": "Deep House Progressions",
+      "image": "Deep_House_Progressions.svg"
+    },
+    {
+      "name": "Digital Legends",
+      "image": "Digital_Legends.svg"
+    },
+    {
+      "name": "Drill",
+      "image": "Drill.svg"
+    },
+    {
+      "name": "Drum and Bass",
+      "image": "Drum_and_Bass.svg"
+    },
+    {
+      "name": "Drum and Bass 2",
+      "image": "Drum_and_Bass_2.svg"
+    },
+    {
+      "name": "Dubstep Electro",
+      "image": "Dubstep_Electro.svg"
+    },
+    {
+      "name": "Dubstep Electro 2",
+      "image": "Dubstep_Electro_2.svg"
+    },
+    {
+      "name": "Dubstep Electro 3",
+      "image": "Dubstep_Electro_3.svg"
+    },
+    {
+      "name": "Dubstep Electro 4",
+      "image": "Dubstep_Electro_4.svg"
+    },
+    {
+      "name": "EDM",
+      "image": "EDM.svg"
+    },
+    {
+      "name": "EDM 10",
+      "image": "EDM_10.svg"
+    },
+    {
+      "name": "EDM 11",
+      "image": "EDM_11.svg"
+    },
+    {
+      "name": "EDM 2",
+      "image": "EDM_2.svg"
+    },
+    {
+      "name": "EDM 3",
+      "image": "EDM_3.svg"
+    },
+    {
+      "name": "EDM 4",
+      "image": "EDM_4.svg"
+    },
+    {
+      "name": "EDM 5",
+      "image": "EDM_5.svg"
+    },
+    {
+      "name": "EDM 6",
+      "image": "EDM_6.svg"
+    },
+    {
+      "name": "EDM 7",
+      "image": "EDM_7.svg"
+    },
+    {
+      "name": "EDM 8",
+      "image": "EDM_8.svg"
+    },
+    {
+      "name": "EDM 9",
+      "image": "EDM_9.svg"
+    },
+    {
+      "name": "EDM Leads",
+      "image": "EDM_Leads.svg"
+    },
+    {
+      "name": "EDM Voices",
+      "image": "EDM_Voices.svg"
+    },
+    {
+      "name": "EDM Voices 2",
+      "image": "EDM_Voices_2.svg"
+    },
+    {
+      "name": "Electrohouse Leads",
+      "image": "Electrohouse_Leads.svg"
+    },
+    {
+      "name": "Electrohouse Leads 2",
+      "image": "Electrohouse_Leads_2.svg"
+    },
+    {
+      "name": "Factory content",
+      "image": "Factory_content.svg"
+    },
+    {
+      "name": "Feel Good House",
+      "image": "Feel_Good_House.svg"
+    },
+    {
+      "name": "Festival EDM",
+      "image": "Festival_EDM.svg"
+    },
+    {
+      "name": "Festival EDM 2",
+      "image": "Festival_EDM_2.svg"
+    },
+    {
+      "name": "FM",
+      "image": "FM.svg"
+    },
+    {
+      "name": "FM 2",
+      "image": "FM_2.svg"
+    },
+    {
+      "name": "Freaky Machines",
+      "image": "Freaky_Machines.svg"
+    },
+    {
+      "name": "French House",
+      "image": "French_House.svg"
+    },
+    {
+      "name": "Future Arps",
+      "image": "Future_Arps.svg"
+    },
+    {
+      "name": "Future Arps 2",
+      "image": "Future_Arps_2.svg"
+    },
+    {
+      "name": "Future Arps 3",
+      "image": "Future_Arps_3.svg"
+    },
+    {
+      "name": "Future Arps 4",
+      "image": "Future_Arps_4.svg"
+    },
+    {
+      "name": "Future Bass",
+      "image": "Future_Bass.svg"
+    },
+    {
+      "name": "Future Bass 2",
+      "image": "Future_Bass_2.svg"
+    },
+    {
+      "name": "Future Chill",
+      "image": "Future_Chill.svg"
+    },
+    {
+      "name": "Future EDM",
+      "image": "Future_EDM.svg"
+    },
+    {
+      "name": "Future House",
+      "image": "Future_House.svg"
+    },
+    {
+      "name": "Future House 2",
+      "image": "Future_House_2.svg"
+    },
+    {
+      "name": "Future Pop Voices",
+      "image": "Future_Pop_Voices.svg"
+    },
+    {
+      "name": "Future Rave",
+      "image": "Future_Rave.svg"
+    },
+    {
+      "name": "FX",
+      "image": "FX.svg"
+    },
+    {
+      "name": "Guitars",
+      "image": "Guitars.svg"
+    },
+    {
+      "name": "Guitars 2",
+      "image": "Guitars_2.svg"
+    },
+    {
+      "name": "Halloween",
+      "image": "Halloween.svg"
+    },
+    {
+      "name": "HandsUp Electro Bass",
+      "image": "HandsUp_Electro_Bass.svg"
+    },
+    {
+      "name": "HandsUp Electro Bass 2",
+      "image": "HandsUp_Electro_Bass_2.svg"
+    },
+    {
+      "name": "HandsUp Electro Bass 3",
+      "image": "HandsUp_Electro_Bass_3.svg"
+    },
+    {
+      "name": "HandsUp Leads 1",
+      "image": "HandsUp_Leads_1.svg"
+    },
+    {
+      "name": "Happy Hardcore",
+      "image": "Happy_Hardcore.svg"
+    },
+    {
+      "name": "Hard Techno",
+      "image": "Hard_Techno.svg"
+    },
+    {
+      "name": "Hardcore Italia",
+      "image": "Hardcore_Italia.svg"
+    },
+    {
+      "name": "Hardstyle",
+      "image": "Hardstyle.svg"
+    },
+    {
+      "name": "Hardstyle 2",
+      "image": "Hardstyle_2.svg"
+    },
+    {
+      "name": "Hardstyle 3",
+      "image": "Hardstyle_3.svg"
+    },
+    {
+      "name": "header nexus2",
+      "image": "header_nexus2.svg"
+    },
+    {
+      "name": "header nexus3",
+      "image": "header_nexus3.svg"
+    },
+    {
+      "name": "header nexus4",
+      "image": "header_nexus4.svg"
+    },
+    {
+      "name": "header nexus5",
+      "image": "header_nexus5.svg"
+    },
+    {
+      "name": "Hip Hop",
+      "image": "Hip_Hop.svg"
+    },
+    {
+      "name": "Hip Hop 2",
+      "image": "Hip_Hop_2.svg"
+    },
+    {
+      "name": "Hip Hop 3",
+      "image": "Hip_Hop_3.svg"
+    },
+    {
+      "name": "Hip Hop 4",
+      "image": "Hip_Hop_4.svg"
+    },
+    {
+      "name": "Hollywood",
+      "image": "Hollywood.svg"
+    },
+    {
+      "name": "Hollywood 2 Bundle",
+      "image": "Hollywood_2_Bundle.svg"
+    },
+    {
+      "name": "Hollywood 2 Core Library",
+      "image": "Hollywood_2_Core_Library.svg"
+    },
+    {
+      "name": "Hollywood 2 Drums FX",
+      "image": "Hollywood_2_Drums_FX.svg"
+    },
+    {
+      "name": "Hollywood 2 Strings",
+      "image": "Hollywood_2_Strings.svg"
+    },
+    {
+      "name": "Hollywood 2 Winds Brass",
+      "image": "Hollywood_2_Winds_Brass.svg"
+    },
+    {
+      "name": "Hollywood 3 Bundle",
+      "image": "Hollywood_3_Bundle.svg"
+    },
+    {
+      "name": "Hollywood 3 Drumkits Percussions",
+      "image": "Hollywood_3_Drumkits_Percussions.svg"
+    },
+    {
+      "name": "Hollywood 3 Epic Collection",
+      "image": "Hollywood_3_Epic_Collection.svg"
+    },
+    {
+      "name": "Hollywood 3 Ethno",
+      "image": "Hollywood_3_Ethno.svg"
+    },
+    {
+      "name": "Hollywood 3 Guitars",
+      "image": "Hollywood_3_Guitars.svg"
+    },
+    {
+      "name": "Hollywood Action Trailer",
+      "image": "Hollywood_Action_Trailer.svg"
+    },
+    {
+      "name": "Hollywood Percussion Loops",
+      "image": "Hollywood_Percussion_Loops.svg"
+    },
+    {
+      "name": "Hollywood Percussion Loops 2",
+      "image": "Hollywood_Percussion_Loops_2.svg"
+    },
+    {
+      "name": "Hollywood Piano",
+      "image": "Hollywood_Piano.svg"
+    },
+    {
+      "name": "Hollywood Sound FX",
+      "image": "Hollywood_Sound_FX.svg"
+    },
+    {
+      "name": "Hollywood Synth Edition",
+      "image": "Hollywood_Synth_Edition.svg"
+    },
+    {
+      "name": "Hollywood Synth Edition 2",
+      "image": "Hollywood_Synth_Edition_2.svg"
+    },
+    {
+      "name": "Hollywood Synth Edition 3",
+      "image": "Hollywood_Synth_Edition_3.svg"
+    },
+    {
+      "name": "House Vol 1",
+      "image": "House_Vol_1.svg"
+    },
+    {
+      "name": "House Vol 2",
+      "image": "House_Vol_2.svg"
+    },
+    {
+      "name": "House Vol 3",
+      "image": "House_Vol_3.svg"
+    },
+    {
+      "name": "Hyper Techno",
+      "image": "Hyper_Techno.svg"
+    },
+    {
+      "name": "Hyperpop",
+      "image": "Hyperpop.svg"
+    },
+    {
+      "name": "Hypnotic Techno",
+      "image": "Hypnotic_Techno.svg"
+    },
+    {
+      "name": "Italo Disco",
+      "image": "Italo_Disco.svg"
+    },
+    {
+      "name": "Jungle",
+      "image": "Jungle.svg"
+    },
+    {
+      "name": "K Pop",
+      "image": "K_Pop.svg"
+    },
+    {
+      "name": "Kamui",
+      "image": "Kamui.svg"
+    },
+    {
+      "name": "Kamui 2",
+      "image": "Kamui_2.svg"
+    },
+    {
+      "name": "Latin House",
+      "image": "Latin_House.svg"
+    },
+    {
+      "name": "Lo fi",
+      "image": "Lo_fi.svg"
+    },
+    {
+      "name": "Lo fi 2",
+      "image": "Lo_fi_2.svg"
+    },
+    {
+      "name": "Melodic Techno",
+      "image": "Melodic_Techno.svg"
+    },
+    {
+      "name": "Melodic Techno 2",
+      "image": "Melodic_Techno_2.svg"
+    },
+    {
+      "name": "Melodic Techno 3",
+      "image": "Melodic_Techno_3.svg"
+    },
+    {
+      "name": "Melodic Techno 4",
+      "image": "Melodic_Techno_4.svg"
+    },
+    {
+      "name": "Millennium Pop",
+      "image": "Millennium_Pop.svg"
+    },
+    {
+      "name": "Millennium Pop 2",
+      "image": "Millennium_Pop_2.svg"
+    },
+    {
+      "name": "Minimal House",
+      "image": "Minimal_House.svg"
+    },
+    {
+      "name": "Minimal House 2",
+      "image": "Minimal_House_2.svg"
+    },
+    {
+      "name": "Moombahton",
+      "image": "Moombahton.svg"
+    },
+    {
+      "name": "Moombahton 2",
+      "image": "Moombahton_2.svg"
+    },
+    {
+      "name": "More Cowbell",
+      "image": "More_Cowbell.svg"
+    },
+    {
+      "name": "N5 Factory Presets",
+      "image": "N5_Factory_Presets.svg"
+    },
+    {
+      "name": "Nexus3",
+      "image": "Nexus3.svg"
+    },
+    {
+      "name": "Nexus4",
+      "image": "Nexus4.svg"
+    },
+    {
+      "name": "Nexus5",
+      "image": "Nexus5.svg"
+    },
+    {
+      "name": "NuDisco",
+      "image": "NuDisco.svg"
+    },
+    {
+      "name": "NuElectro",
+      "image": "NuElectro.svg"
+    },
+    {
+      "name": "Omicron",
+      "image": "Omicron.svg"
+    },
+    {
+      "name": "Omicron 2",
+      "image": "Omicron_2.svg"
+    },
+    {
+      "name": "Omicron 3",
+      "image": "Omicron_3.svg"
+    },
+    {
+      "name": "Perpetual Motion",
+      "image": "Perpetual_Motion.svg"
+    },
+    {
+      "name": "Phonk",
+      "image": "Phonk.svg"
+    },
+    {
+      "name": "Pop",
+      "image": "Pop.svg"
+    },
+    {
+      "name": "Prog Tech House",
+      "image": "Prog_Tech_House.svg"
+    },
+    {
+      "name": "Prog Tech House 2",
+      "image": "Prog_Tech_House_2.svg"
+    },
+    {
+      "name": "Progressive House",
+      "image": "Progressive_House.svg"
+    },
+    {
+      "name": "Progressive Trance",
+      "image": "Progressive_Trance.svg"
+    },
+    {
+      "name": "Psytrance",
+      "image": "Psytrance.svg"
+    },
+    {
+      "name": "Psytrance 2",
+      "image": "Psytrance_2.svg"
+    },
+    {
+      "name": "Rauschwerk",
+      "image": "Rauschwerk.svg"
+    },
+    {
+      "name": "Rauschwerk 2",
+      "image": "Rauschwerk_2.svg"
+    },
+    {
+      "name": "Rauschwerk 3",
+      "image": "Rauschwerk_3.svg"
+    },
+    {
+      "name": "refx logo",
+      "image": "refx_logo.svg"
+    },
+    {
+      "name": "Reggaeton",
+      "image": "Reggaeton.svg"
+    },
+    {
+      "name": "Reggaeton 2",
+      "image": "Reggaeton_2.svg"
+    },
+    {
+      "name": "Reggaeton 3",
+      "image": "Reggaeton_3.svg"
+    },
+    {
+      "name": "Reverb Impulse Response",
+      "image": "Reverb_Impulse_Response.svg"
+    },
+    {
+      "name": "Rom Extension",
+      "image": "Rom_Extension.svg"
+    },
+    {
+      "name": "ROM Extension 2",
+      "image": "ROM_Extension_2.svg"
+    },
+    {
+      "name": "ROM Extension 3",
+      "image": "ROM_Extension_3.svg"
+    },
+    {
+      "name": "ROM Extension 4",
+      "image": "ROM_Extension_4.svg"
+    },
+    {
+      "name": "SID",
+      "image": "SID.svg"
+    },
+    {
+      "name": "Slap House",
+      "image": "Slap_House.svg"
+    },
+    {
+      "name": "Slap House 2",
+      "image": "Slap_House_2.svg"
+    },
+    {
+      "name": "Sound of the 70s",
+      "image": "Sound_of_the_70s.svg"
+    },
+    {
+      "name": "Sound of the 80s",
+      "image": "Sound_of_the_80s.svg"
+    },
+    {
+      "name": "Sound of the 90s",
+      "image": "Sound_of_the_90s.svg"
+    },
+    {
+      "name": "Sound of the 90s Vol 2",
+      "image": "Sound_of_the_90s_Vol_2.svg"
+    },
+    {
+      "name": "Sounds of the Summer",
+      "image": "Sounds_of_the_Summer.svg"
+    },
+    {
+      "name": "Sounds of the Summer 2",
+      "image": "Sounds_of_the_Summer_2.svg"
+    },
+    {
+      "name": "Sounds of the Summer 3",
+      "image": "Sounds_of_the_Summer_3.svg"
+    },
+    {
+      "name": "Spinning House",
+      "image": "Spinning_House.svg"
+    },
+    {
+      "name": "Spinning House 2",
+      "image": "Spinning_House_2.svg"
+    },
+    {
+      "name": "Store n Forward",
+      "image": "Store_n_Forward.svg"
+    },
+    {
+      "name": "Stratosphere",
+      "image": "Stratosphere.svg"
+    },
+    {
+      "name": "Stratosphere 2",
+      "image": "Stratosphere_2.svg"
+    },
+    {
+      "name": "Stratosphere 3",
+      "image": "Stratosphere_3.svg"
+    },
+    {
+      "name": "Studio Production 1",
+      "image": "Studio_Production_1.svg"
+    },
+    {
+      "name": "Studio Production 2",
+      "image": "Studio_Production_2.svg"
+    },
+    {
+      "name": "Studio Production 3 Guitars",
+      "image": "Studio_Production_3_Guitars.svg"
+    },
+    {
+      "name": "Summer Deep Chill",
+      "image": "Summer_Deep_Chill.svg"
+    },
+    {
+      "name": "Swedish House",
+      "image": "Swedish_House.svg"
+    },
+    {
+      "name": "Swedish House 2",
+      "image": "Swedish_House_2.svg"
+    },
+    {
+      "name": "Synthetic Textures",
+      "image": "Synthetic_Textures.svg"
+    },
+    {
+      "name": "Synthwave",
+      "image": "Synthwave.svg"
+    },
+    {
+      "name": "Synthwave 2",
+      "image": "Synthwave_2.svg"
+    },
+    {
+      "name": "Tech Essentials",
+      "image": "Tech_Essentials.svg"
+    },
+    {
+      "name": "Tech House",
+      "image": "Tech_House.svg"
+    },
+    {
+      "name": "Techno",
+      "image": "Techno.svg"
+    },
+    {
+      "name": "Techno 2",
+      "image": "Techno_2.svg"
+    },
+    {
+      "name": "Total Piano",
+      "image": "Total_Piano.svg"
+    },
+    {
+      "name": "Trance Anthems",
+      "image": "Trance_Anthems.svg"
+    },
+    {
+      "name": "Trance Anthems 2",
+      "image": "Trance_Anthems_2.svg"
+    },
+    {
+      "name": "Trance Elements",
+      "image": "Trance_Elements.svg"
+    },
+    {
+      "name": "Trance Leads",
+      "image": "Trance_Leads.svg"
+    },
+    {
+      "name": "Trance Leads 2",
+      "image": "Trance_Leads_2.svg"
+    },
+    {
+      "name": "Trance Universe",
+      "image": "Trance_Universe.svg"
+    },
+    {
+      "name": "Trance Voices",
+      "image": "Trance_Voices.svg"
+    },
+    {
+      "name": "Trap",
+      "image": "Trap.svg"
+    },
+    {
+      "name": "Trap 2",
+      "image": "Trap_2.svg"
+    },
+    {
+      "name": "Trap 3",
+      "image": "Trap_3.svg"
+    },
+    {
+      "name": "Trap 4",
+      "image": "Trap_4.svg"
+    },
+    {
+      "name": "Tropical House",
+      "image": "Tropical_House.svg"
+    },
+    {
+      "name": "Tropical House 2",
+      "image": "Tropical_House_2.svg"
+    },
+    {
+      "name": "Tropical House 3",
+      "image": "Tropical_House_3.svg"
+    },
+    {
+      "name": "Tropical House 4",
+      "image": "Tropical_House_4.svg"
+    },
+    {
+      "name": "Tropical House 5",
+      "image": "Tropical_House_5.svg"
+    },
+    {
+      "name": "TV Movie Game",
+      "image": "TV_Movie_Game.svg"
+    },
+    {
+      "name": "Twerk",
+      "image": "Twerk.svg"
+    },
+    {
+      "name": "UK Garage",
+      "image": "UK_Garage.svg"
+    },
+    {
+      "name": "UK House",
+      "image": "UK_House.svg"
+    },
+    {
+      "name": "Vaporwave",
+      "image": "Vaporwave.svg"
+    },
+    {
+      "name": "Vintage Drumkits",
+      "image": "Vintage_Drumkits.svg"
+    },
+    {
+      "name": "Vintage Synths",
+      "image": "Vintage_Synths.svg"
+    },
+    {
+      "name": "Vintage Synths 2",
+      "image": "Vintage_Synths_2.svg"
+    },
+    {
+      "name": "Vintage Synths 3",
+      "image": "Vintage_Synths_3.svg"
+    },
+    {
+      "name": "Vintage Synths 4",
+      "image": "Vintage_Synths_4.svg"
+    },
+    {
+      "name": "Vocoder",
+      "image": "Vocoder.svg"
+    }
+  ]
+}

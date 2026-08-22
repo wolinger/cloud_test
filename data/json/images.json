@@ -481,22 +481,6 @@
       "image": "Hardstyle_3.svg"
     },
     {
-      "name": "header nexus2",
-      "image": "header_nexus2.svg"
-    },
-    {
-      "name": "header nexus3",
-      "image": "header_nexus3.svg"
-    },
-    {
-      "name": "header nexus4",
-      "image": "header_nexus4.svg"
-    },
-    {
-      "name": "header nexus5",
-      "image": "header_nexus5.svg"
-    },
-    {
       "name": "Hip Hop",
       "image": "Hip_Hop.svg"
     },
@@ -693,18 +677,6 @@
       "image": "N5_Factory_Presets.svg"
     },
     {
-      "name": "Nexus3",
-      "image": "Nexus3.svg"
-    },
-    {
-      "name": "Nexus4",
-      "image": "Nexus4.svg"
-    },
-    {
-      "name": "Nexus5",
-      "image": "Nexus5.svg"
-    },
-    {
       "name": "NuDisco",
       "image": "NuDisco.svg"
     },
@@ -771,10 +743,6 @@
     {
       "name": "Rauschwerk 3",
       "image": "Rauschwerk_3.svg"
-    },
-    {
-      "name": "refx logo",
-      "image": "refx_logo.svg"
     },
     {
       "name": "Reggaeton",
@@ -1035,6 +1003,40 @@
     {
       "name": "Vocoder",
       "image": "Vocoder.svg"
+    }
+  ],
+  "logos": [
+    {
+      "name": "header nexus2",
+      "image": "header_nexus2.svg"
+    },
+    {
+      "name": "header nexus3",
+      "image": "header_nexus3.svg"
+    },
+    {
+      "name": "header nexus4",
+      "image": "header_nexus4.svg"
+    },
+    {
+      "name": "header nexus5",
+      "image": "header_nexus5.svg"
+    },
+    {
+      "name": "Nexus3",
+      "image": "Nexus3.svg"
+    },
+    {
+      "name": "Nexus4",
+      "image": "Nexus4.svg"
+    },
+    {
+      "name": "Nexus5",
+      "image": "Nexus5.svg"
+    },
+    {
+      "name": "refx logo",
+      "image": "refx_logo.svg"
     }
   ]
 }

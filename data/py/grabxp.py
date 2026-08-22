@@ -2,6 +2,7 @@ import requests
 import json
 import os
 
+
 API_URL = "https://api.github.com/repos/wolinger/cloud_test/contents/cloud/cache/images?ref=master"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -12,14 +13,30 @@ JSON_DIR = os.path.abspath(
 
 os.makedirs(JSON_DIR, exist_ok=True)
 
-JSON_PATH = os.path.join(JSON_DIR, "expansions.json")
+JSON_PATH = os.path.join(JSON_DIR, "images.json")
+
+
+# =========================================================
+# BUSCA ARQUIVOS NO GITHUB
+# =========================================================
 
 response = requests.get(API_URL)
 response.raise_for_status()
 
 arquivos = response.json()
 
+
+# =========================================================
+# CATEGORIAS
+# =========================================================
+
 expansions = []
+logos = []
+
+
+# =========================================================
+# PROCESSA SVGs
+# =========================================================
 
 for arquivo in arquivos:
     nome_arquivo = arquivo["name"]
@@ -30,23 +47,84 @@ for arquivo in arquivos:
     if not nome_arquivo.lower().endswith(".svg"):
         continue
 
-    # Advent_2017.svg -> Advent 2017
+    # Remove .svg e troca _ por espaço
     nome = nome_arquivo[:-4].replace("_", " ")
 
-    expansions.append({
-        "name": nome,
-        "image": nome_arquivo
-    })
+    nome_lower = nome_arquivo.lower()
 
-expansions.sort(key=lambda x: x["name"].lower())
+    # =====================================================
+    # LOGOS
+    # =====================================================
 
-with open(JSON_PATH, "w", encoding="utf-8") as f:
+    if (
+        nome_lower.startswith("header")
+        or nome_lower.startswith("nexus")
+        or nome_lower.startswith("refx")
+    ):
+        logos.append({
+            "name": nome,
+            "image": nome_arquivo
+        })
+
+    # =====================================================
+    # EXPANSÕES
+    # =====================================================
+
+    else:
+        expansions.append({
+            "name": nome,
+            "image": nome_arquivo
+        })
+
+
+# =========================================================
+# ORDENA
+# =========================================================
+
+expansions.sort(
+    key=lambda x: x["name"].lower()
+)
+
+logos.sort(
+    key=lambda x: x["name"].lower()
+)
+
+
+# =========================================================
+# SALVA JSON
+# =========================================================
+
+data = {
+    "expansions": expansions,
+    "logos": logos
+}
+
+with open(
+    JSON_PATH,
+    "w",
+    encoding="utf-8"
+) as f:
+
     json.dump(
-        {"expansions": expansions},
+        data,
         f,
         ensure_ascii=False,
         indent=2
     )
 
-print(f"Gerado com {len(expansions)} expansões.")
-print(f"Salvo em: {JSON_PATH}")
+
+# =========================================================
+# RESULTADO
+# =========================================================
+
+print(
+    f"Gerado com {len(expansions)} expansões."
+)
+
+print(
+    f"Gerado com {len(logos)} logos."
+)
+
+print(
+    f"Salvo em: {JSON_PATH}"
+)

@@ -1,7 +1,7 @@
 {
     "vendor": {
         "name": "reFX",
-        "logo": "refx logo"
+        "logo": "refx_logo.svg"
     },
 
     "products": [
@@ -9,19 +9,19 @@
             "id": "nexus",
             "name": "NEXUS",
             "expansion_prefix": "Nexus/",
-            "logo": "header nexus5"
+            "logo": "header_nexus5.svg"
         },
         {
             "id": "rippler",
             "name": "RIPPLER",
             "expansion_prefix": "Rippler/",
-            "logo": "header rippler"
+            "logo": "header_vanguard.svg"
         },
         {
             "id": "vanguard",
             "name": "VANGUARD",
             "expansion_prefix": "Vanguard/",
-            "logo": "header vanguard"
+            "logo": "header_vanguard.svg"
         }
     ],
 

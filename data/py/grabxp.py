@@ -1,4 +1,3 @@
-import requests
 import json
 import os
 import re
@@ -6,9 +5,20 @@ import re
 from collections import Counter
 
 
-API_URL = "https://api.github.com/repos/wolinger/cloud_test/contents/cloud/cache/images/"
-
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# data/py/grabxp.py -> volta até a raiz do projeto
+PROJECT_DIR = os.path.abspath(
+    os.path.join(SCRIPT_DIR, "..", "..")
+)
+
+# Pasta local que também é enviada para o Git
+IMAGES_DIR = os.path.join(
+    PROJECT_DIR,
+    "cloud",
+    "cache",
+    "images"
+)
 
 JSON_DIR = os.path.abspath(
     os.path.join(SCRIPT_DIR, "..", "json")
@@ -100,6 +110,111 @@ def _extrai_gradientes(svg_texto):
 
 
 # =========================================================
+# EXTRAI O GRADIENTE PRINCIPAL DO SVG
+# Preserva offsets e cores do gradiente usado no primeiro path.
+# =========================================================
+
+def extrai_gradiente_principal(svg_texto):
+    gradientes = {}
+
+    for bloco in re.finditer(
+        r'<linearGradient\b[^>]*\bid=["\']([^"\']+)["\'][^>]*>(.*?)</linearGradient>',
+        svg_texto,
+        re.DOTALL | re.IGNORECASE
+    ):
+        grad_id = bloco.group(1)
+        conteudo = bloco.group(2)
+        stops = []
+
+        for stop in re.finditer(r'<stop\b([^>]*)/?>', conteudo, re.IGNORECASE):
+            attrs = stop.group(1)
+
+            offset_match = re.search(
+                r'\boffset\s*=\s*["\']([^"\']+)["\']',
+                attrs,
+                re.IGNORECASE
+            )
+
+            color_match = re.search(
+                r'\bstop-color\s*=\s*["\'](#[0-9a-fA-F]{3,8})["\']',
+                attrs,
+                re.IGNORECASE
+            )
+
+            if not color_match:
+                style_match = re.search(
+                    r'\bstyle\s*=\s*["\']([^"\']+)["\']',
+                    attrs,
+                    re.IGNORECASE
+                )
+
+                if style_match:
+                    color_match = re.search(
+                        r'stop-color\s*:\s*(#[0-9a-fA-F]{3,8})',
+                        style_match.group(1),
+                        re.IGNORECASE
+                    )
+
+            if not color_match:
+                continue
+
+            cor = color_match.group(1).lower()
+
+            # Ignora alpha se vier #RRGGBBAA.
+            if len(cor) == 9:
+                cor = cor[:7]
+
+            if not _cor_e_valida(cor):
+                continue
+
+            stops.append({
+                "offset": offset_match.group(1) if offset_match else None,
+                "color": cor
+            })
+
+        if stops:
+            gradientes[grad_id] = stops
+
+    # Tenta usar o gradiente realmente aplicado ao primeiro path.
+    primeiro_path = re.search(r'<path\b[^>]*>', svg_texto, re.IGNORECASE)
+
+    if primeiro_path:
+        fill_match = re.search(
+            r'fill\s*=\s*["\']url\(#([^)]+)\)["\']',
+            primeiro_path.group(0),
+            re.IGNORECASE
+        )
+
+        if fill_match:
+            gradiente = gradientes.get(fill_match.group(1))
+
+            if gradiente and len(gradiente) >= 2:
+                return gradiente
+
+    # Fallback: primeiro gradiente válido com pelo menos 2 stops.
+    for gradiente in gradientes.values():
+        if len(gradiente) >= 2:
+            return gradiente
+
+    return None
+
+
+def analisa_svg(caminho_svg):
+    try:
+        with open(caminho_svg, "r", encoding="utf-8") as f:
+            svg_texto = f.read()
+
+        return (
+            extrai_cor_principal(svg_texto),
+            extrai_gradiente_principal(svg_texto)
+        )
+
+    except Exception as e:
+        print(f"Aviso: não deu pra analisar {caminho_svg}: {e}")
+        return None, None
+
+
+# =========================================================
 # EXTRAI A COR PRINCIPAL DE UM SVG
 # =========================================================
 
@@ -164,8 +279,18 @@ def extrai_cor_principal(svg_texto):
     return cor_mais_comum
 
 
-def busca_cor_do_svg(download_url):
-    if not download_url:
+def busca_cor_do_svg(caminho_svg):
+    if not caminho_svg:
+        return None
+
+    try:
+        with open(caminho_svg, "r", encoding="utf-8") as f:
+            return extrai_cor_principal(f.read())
+
+    except Exception as e:
+        print(
+            f"Aviso: não deu pra extrair cor de {caminho_svg}: {e}"
+        )
         return None
 
     try:
@@ -184,45 +309,39 @@ def busca_cor_do_svg(download_url):
 
 
 # =========================================================
-# BUSCA ARQUIVOS NO GITHUB
+# BUSCA SVGs NA PASTA LOCAL (INCLUSIVE SUBPASTAS)
 # =========================================================
 
-def busca_arquivos_recursivamente(api_url, caminho_relativo=""):
-    """Percorre a pasta do GitHub e todas as subpastas."""
-    response = requests.get(api_url, timeout=30)
-    response.raise_for_status()
-
-    itens = response.json()
+def busca_svgs_locais():
     arquivos_encontrados = []
 
-    for item in itens:
-        nome = item["name"]
-        tipo = item["type"]
-
-        caminho_item = (
-            f"{caminho_relativo}/{nome}"
-            if caminho_relativo
-            else nome
+    if not os.path.isdir(IMAGES_DIR):
+        raise FileNotFoundError(
+            f"Pasta de imagens não encontrada: {IMAGES_DIR}"
         )
 
-        if tipo == "dir":
-            arquivos_encontrados.extend(
-                busca_arquivos_recursivamente(
-                    item["url"],
-                    caminho_item
-                )
-            )
+    for raiz, _, arquivos in os.walk(IMAGES_DIR):
+        for nome_arquivo in arquivos:
+            if not nome_arquivo.lower().endswith(".svg"):
+                continue
 
-        elif tipo == "file":
-            # Guarda o caminho relativo a cloud/cache/images/
-            item = dict(item)
-            item["relative_path"] = caminho_item
-            arquivos_encontrados.append(item)
+            caminho_completo = os.path.join(raiz, nome_arquivo)
+
+            caminho_relativo = os.path.relpath(
+                caminho_completo,
+                IMAGES_DIR
+            ).replace("\\", "/")
+
+            arquivos_encontrados.append({
+                "name": nome_arquivo,
+                "path": caminho_completo,
+                "relative_path": caminho_relativo,
+            })
 
     return arquivos_encontrados
 
 
-arquivos = busca_arquivos_recursivamente(API_URL)
+arquivos = busca_svgs_locais()
 
 
 # =========================================================
@@ -240,9 +359,6 @@ logos = []
 for arquivo in arquivos:
     nome_arquivo = arquivo["name"]
     caminho_imagem = arquivo["relative_path"]
-
-    if arquivo["type"] != "file":
-        continue
 
     if not nome_arquivo.lower().endswith(".svg"):
         continue
@@ -271,15 +387,22 @@ for arquivo in arquivos:
     # =====================================================
 
     else:
-        cor = busca_cor_do_svg(
-            arquivo.get("download_url")
+        cor, gradiente = analisa_svg(
+            arquivo["path"]
         )
 
-        expansions.append({
+        item = {
             "name": nome,
             "image": caminho_imagem,
             "color": cor
-        })
+        }
+
+        # Só adiciona "gradient" quando o SVG realmente possui
+        # um gradiente válido com pelo menos duas cores.
+        if gradiente:
+            item["gradient"] = gradiente
+
+        expansions.append(item)
 
 
 # =========================================================

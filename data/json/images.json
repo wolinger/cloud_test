@@ -1,4 +1,3787 @@
 {
-  "expansions": [],
-  "logos": []
+  "expansions": [
+    {
+      "name": "Advent Calendar",
+      "image": "Nexus/Advent_Calendar.svg",
+      "color": "#6cc333",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#89e84b"
+        },
+        {
+          "offset": "100%",
+          "color": "#509e1c"
+        }
+      ]
+    },
+    {
+      "name": "Afro House",
+      "image": "Nexus/Afro_House.svg",
+      "color": "#d16907",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ce251f"
+        },
+        {
+          "offset": ".33",
+          "color": "#ff5900"
+        },
+        {
+          "offset": ".69",
+          "color": "#ff9500"
+        },
+        {
+          "offset": "1",
+          "color": "#7b9100"
+        }
+      ]
+    },
+    {
+      "name": "Afrobeats",
+      "image": "Nexus/Afrobeats.svg",
+      "color": "#ac942a",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff4118"
+        },
+        {
+          "offset": ".33",
+          "color": "#ffca0f"
+        },
+        {
+          "offset": ".69",
+          "color": "#a8b329"
+        },
+        {
+          "offset": "1",
+          "color": "#0c945b"
+        }
+      ]
+    },
+    {
+      "name": "All About the Bass",
+      "image": "Nexus/All_About_the_Bass.svg",
+      "color": "#8675aa",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff8d54"
+        },
+        {
+          "offset": "50.52%",
+          "color": "#936adf"
+        },
+        {
+          "offset": "100%",
+          "color": "#0068cb"
+        }
+      ]
+    },
+    {
+      "name": "Ambient Sci Fi",
+      "image": "Nexus/Ambient_Sci_Fi.svg",
+      "color": "#4f2ae1",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#5955ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#4600c4"
+        }
+      ]
+    },
+    {
+      "name": "Analog",
+      "image": "Nexus/Analog.svg",
+      "color": "#db2b20",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff5240"
+        },
+        {
+          "offset": "100%",
+          "color": "#b70400"
+        }
+      ]
+    },
+    {
+      "name": "Analog 2",
+      "image": "Nexus/Analog_2.svg",
+      "color": "#d2261f",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff493e"
+        },
+        {
+          "offset": "100%",
+          "color": "#a50400"
+        }
+      ]
+    },
+    {
+      "name": "Analog 3",
+      "image": "Nexus/Analog_3.svg",
+      "color": "#c51500",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ef2600"
+        },
+        {
+          "offset": "100%",
+          "color": "#9c0400"
+        }
+      ]
+    },
+    {
+      "name": "Analog DrumKits",
+      "image": "Nexus/Analog_DrumKits.svg",
+      "color": "#16c5e0",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#00e6f4"
+        },
+        {
+          "offset": "100%",
+          "color": "#2da5cd"
+        }
+      ]
+    },
+    {
+      "name": "Apres Ski",
+      "image": "Nexus/Apres_Ski.svg",
+      "color": "#de50b9",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#f071dd"
+        },
+        {
+          "offset": "1",
+          "color": "#cc3096"
+        }
+      ]
+    },
+    {
+      "name": "Apres Ski 2",
+      "image": "Nexus/Apres_Ski_2.svg",
+      "color": "#e02ea9",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#f65dd4"
+        },
+        {
+          "offset": "1",
+          "color": "#cb007e"
+        }
+      ]
+    },
+    {
+      "name": "Artist Series 7 Skies",
+      "image": "Nexus/Artist_Series_7_Skies.svg",
+      "color": "#837757"
+    },
+    {
+      "name": "Artist Series 7 Skies 2",
+      "image": "Nexus/Artist_Series_7_Skies_2.svg",
+      "color": "#837757"
+    },
+    {
+      "name": "Artist Series Armin van Buuren",
+      "image": "Nexus/Artist_Series_Armin_van_Buuren.svg",
+      "color": "#837757"
+    },
+    {
+      "name": "Artist Series Bodybangers",
+      "image": "Nexus/Artist_Series_Bodybangers.svg",
+      "color": "#837757"
+    },
+    {
+      "name": "Artist Series Klaas",
+      "image": "Nexus/Artist_Series_Klaas.svg",
+      "color": "#837757"
+    },
+    {
+      "name": "Artist Series KSHMR",
+      "image": "Nexus/Artist_Series_KSHMR.svg",
+      "color": "#837757"
+    },
+    {
+      "name": "Artist Series Steve Aoki",
+      "image": "Nexus/Artist_Series_Steve_Aoki.svg",
+      "color": "#837757"
+    },
+    {
+      "name": "Artist Series Tiesto",
+      "image": "Nexus/Artist_Series_Tiesto.svg",
+      "color": "#837757"
+    },
+    {
+      "name": "Bass",
+      "image": "Nexus/Bass.svg",
+      "color": "#1c8c96",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#32b2bd"
+        },
+        {
+          "offset": "1",
+          "color": "#06676f"
+        }
+      ]
+    },
+    {
+      "name": "Bass 2",
+      "image": "Nexus/Bass_2.svg",
+      "color": "#016e76",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#008e9a"
+        },
+        {
+          "offset": "1",
+          "color": "#034e53"
+        }
+      ]
+    },
+    {
+      "name": "Bass House",
+      "image": "Nexus/Bass_House.svg",
+      "color": "#d3214e",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff4346"
+        },
+        {
+          "offset": "1",
+          "color": "#a80057"
+        }
+      ]
+    },
+    {
+      "name": "Bigtone Signature 1",
+      "image": "Nexus/Bigtone_Signature_1.svg",
+      "color": "#8032a6",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#a565cd"
+        },
+        {
+          "offset": "1",
+          "color": "#5c0080"
+        }
+      ]
+    },
+    {
+      "name": "Bigtone Signature 2",
+      "image": "Nexus/Bigtone_Signature_2.svg",
+      "color": "#b034e1",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#e368f0"
+        },
+        {
+          "offset": "1",
+          "color": "#7d00d3"
+        }
+      ]
+    },
+    {
+      "name": "Bigtone Signature 3",
+      "image": "Nexus/Bigtone_Signature_3.svg",
+      "color": "#c136c0",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#e462e4"
+        },
+        {
+          "offset": "100%",
+          "color": "#9e0b9c"
+        }
+      ]
+    },
+    {
+      "name": "Bigtone Signature 4",
+      "image": "Nexus/Bigtone_Signature_4.svg",
+      "color": "#d532a4",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff64ce"
+        },
+        {
+          "offset": "100%",
+          "color": "#ab007b"
+        }
+      ]
+    },
+    {
+      "name": "Breaks and Risers",
+      "image": "Nexus/Breaks_and_Risers.svg",
+      "color": "#2cb2d2",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#4dd2e0"
+        },
+        {
+          "offset": "1",
+          "color": "#0b93c5"
+        }
+      ]
+    },
+    {
+      "name": "Chillout Lounge",
+      "image": "Nexus/Chillout_Lounge.svg",
+      "color": "#943231",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#a65959"
+        },
+        {
+          "offset": "1",
+          "color": "#830b09"
+        }
+      ]
+    },
+    {
+      "name": "Chiptunes",
+      "image": "Nexus/Chiptunes.svg",
+      "color": "#1ad8c9",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#2ad6aa"
+        },
+        {
+          "offset": "100%",
+          "color": "#0adbe8"
+        }
+      ]
+    },
+    {
+      "name": "Christmas",
+      "image": "Nexus/Christmas.svg",
+      "color": "#0d8667",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#129d80"
+        },
+        {
+          "offset": "1",
+          "color": "#096f4e"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2013",
+      "image": "Nexus/Christmas_2013.svg",
+      "color": "#0b807b",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#129d9b"
+        },
+        {
+          "offset": "1",
+          "color": "#04645c"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2014",
+      "image": "Nexus/Christmas_2014.svg",
+      "color": "#138f7f",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#26a995"
+        },
+        {
+          "offset": "1",
+          "color": "#00766a"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2015",
+      "image": "Nexus/Christmas_2015.svg",
+      "color": "#08a594",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#11beaa"
+        },
+        {
+          "offset": "1",
+          "color": "#008c7e"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2016",
+      "image": "Nexus/Christmas_2016.svg",
+      "color": "#21b6a2",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#30ceba"
+        },
+        {
+          "offset": "1",
+          "color": "#139e8a"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2017",
+      "image": "Nexus/Christmas_2017.svg",
+      "color": "#1ac291",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#2dd695"
+        },
+        {
+          "offset": "100%",
+          "color": "#08af8e"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2018",
+      "image": "Nexus/Christmas_2018.svg",
+      "color": "#29c771",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#31df8a"
+        },
+        {
+          "offset": "100%",
+          "color": "#21af59"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2019",
+      "image": "Nexus/Christmas_2019.svg",
+      "color": "#19bf62",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#24d97b"
+        },
+        {
+          "offset": "100%",
+          "color": "#0fa64a"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2020",
+      "image": "Nexus/Christmas_2020.svg",
+      "color": "#1eb36e",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#3bd896"
+        },
+        {
+          "offset": "100%",
+          "color": "#028f46"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2021",
+      "image": "Nexus/Christmas_2021.svg",
+      "color": "#03b477",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#07dd8a"
+        },
+        {
+          "offset": "100%",
+          "color": "#008c64"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2022",
+      "image": "Nexus/Christmas_2022.svg",
+      "color": "#15a061",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#2bd27b"
+        },
+        {
+          "offset": "100%",
+          "color": "#006e47"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2023",
+      "image": "Nexus/Christmas_2023.svg",
+      "color": "#20a748",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#40e164"
+        },
+        {
+          "offset": "1",
+          "color": "#006e2c"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2024",
+      "image": "Nexus/Christmas_2024.svg",
+      "color": "#37a83f",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#6fe267"
+        },
+        {
+          "offset": "1",
+          "color": "#006e18"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2025",
+      "image": "Nexus/Christmas_2025.svg",
+      "color": "#50a933",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#80e567"
+        },
+        {
+          "offset": "1",
+          "color": "#216e00"
+        }
+      ]
+    },
+    {
+      "name": "Christmas 2026",
+      "image": "Nexus/Christmas_2026.svg",
+      "color": "#5c9d25",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#88d94a"
+        },
+        {
+          "offset": "1",
+          "color": "#316200"
+        }
+      ]
+    },
+    {
+      "name": "Classic Dance",
+      "image": "Nexus/Classic_Dance.svg",
+      "color": "#2aaebc",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#36cbd5"
+        },
+        {
+          "offset": "1",
+          "color": "#1f92a3"
+        }
+      ]
+    },
+    {
+      "name": "Classic Trance",
+      "image": "Nexus/Classic_Trance.svg",
+      "color": "#2eb374",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#50d190"
+        },
+        {
+          "offset": "100%",
+          "color": "#0d9559"
+        }
+      ]
+    },
+    {
+      "name": "Commercial Dance",
+      "image": "Nexus/Commercial_Dance.svg",
+      "color": "#37cfc1",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#46e2ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#28bd83"
+        }
+      ]
+    },
+    {
+      "name": "Commercial Electro",
+      "image": "Nexus/Commercial_Electro.svg",
+      "color": "#dcb529",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#efd62f"
+        },
+        {
+          "offset": "100%",
+          "color": "#ca9524"
+        }
+      ]
+    },
+    {
+      "name": "Commercial Electro 2",
+      "image": "Nexus/Commercial_Electro_2.svg",
+      "color": "#e9b015",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#f6d42a"
+        },
+        {
+          "offset": "100%",
+          "color": "#dd8c00"
+        }
+      ]
+    },
+    {
+      "name": "Crank",
+      "image": "Nexus/Crank.svg",
+      "color": "#61ad1b",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#8cc726"
+        },
+        {
+          "offset": "1",
+          "color": "#369311"
+        }
+      ]
+    },
+    {
+      "name": "Crank 2",
+      "image": "Nexus/Crank_2.svg",
+      "color": "#66c412",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#9ce11d"
+        },
+        {
+          "offset": "1",
+          "color": "#30a807"
+        }
+      ]
+    },
+    {
+      "name": "Cyberpunk",
+      "image": "Nexus/Cyberpunk.svg",
+      "color": "#f7d100",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#f6e800"
+        },
+        {
+          "offset": "100%",
+          "color": "#f9bb00"
+        }
+      ]
+    },
+    {
+      "name": "Cyberpunk 2",
+      "image": "Nexus/Cyberpunk_2.svg",
+      "color": "#f7c811",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffd322"
+        },
+        {
+          "offset": "100%",
+          "color": "#efbd00"
+        }
+      ]
+    },
+    {
+      "name": "Dance 1",
+      "image": "Nexus/Dance_1.svg",
+      "color": "#4966ea",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#7990fc"
+        },
+        {
+          "offset": "1",
+          "color": "#1a3cd9"
+        }
+      ]
+    },
+    {
+      "name": "Dance 2",
+      "image": "Nexus/Dance_2.svg",
+      "color": "#5c62de",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#9390fc"
+        },
+        {
+          "offset": "1",
+          "color": "#2634c1"
+        }
+      ]
+    },
+    {
+      "name": "Dance 3",
+      "image": "Nexus/Dance_3.svg",
+      "color": "#4382e4",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#78aefc"
+        },
+        {
+          "offset": "1",
+          "color": "#0f56cc"
+        }
+      ]
+    },
+    {
+      "name": "Dance Drums",
+      "image": "Nexus/Dance_Drums.svg",
+      "color": "#1faeb5",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#2ed7db"
+        },
+        {
+          "offset": "1",
+          "color": "#10858f"
+        }
+      ]
+    },
+    {
+      "name": "Dance Orchestra",
+      "image": "Nexus/Dance_Orchestra.svg",
+      "color": "#3647a9",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#4e60c8"
+        },
+        {
+          "offset": "1",
+          "color": "#1e2e8a"
+        }
+      ]
+    },
+    {
+      "name": "Dark Planet",
+      "image": "Nexus/Dark_Planet.svg",
+      "color": "#173fd1",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#2f59eb"
+        },
+        {
+          "offset": "100%",
+          "color": "#0026b8"
+        }
+      ]
+    },
+    {
+      "name": "Deep House",
+      "image": "Nexus/Deep_House.svg",
+      "color": "#a7251e",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#d14b3c"
+        },
+        {
+          "offset": "1",
+          "color": "#7e0000"
+        }
+      ]
+    },
+    {
+      "name": "Deep House 2",
+      "image": "Nexus/Deep_House_2.svg",
+      "color": "#d7241a",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff4933"
+        },
+        {
+          "offset": "100%",
+          "color": "#af0001"
+        }
+      ]
+    },
+    {
+      "name": "Deep House Progressions",
+      "image": "Nexus/Deep_House_Progressions.svg",
+      "color": "#ac1828",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#da3030"
+        },
+        {
+          "offset": "100%",
+          "color": "#7e0021"
+        }
+      ]
+    },
+    {
+      "name": "Digital Legends",
+      "image": "Nexus/Digital_Legends.svg",
+      "color": "#ed7618",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ffb531"
+        },
+        {
+          "offset": "1",
+          "color": "#dc3800"
+        }
+      ]
+    },
+    {
+      "name": "Drill",
+      "image": "Nexus/Drill.svg",
+      "color": "#f0bf40",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffe252"
+        },
+        {
+          "offset": "100%",
+          "color": "#e29d2e"
+        }
+      ]
+    },
+    {
+      "name": "Drum and Bass",
+      "image": "Nexus/Drum_and_Bass.svg",
+      "color": "#6aab10",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#a2db0f"
+        },
+        {
+          "offset": "1",
+          "color": "#337c12"
+        }
+      ]
+    },
+    {
+      "name": "Drum and Bass 2",
+      "image": "Nexus/Drum_and_Bass_2.svg",
+      "color": "#5fa726",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#bed900"
+        },
+        {
+          "offset": "100%",
+          "color": "#00764d"
+        }
+      ]
+    },
+    {
+      "name": "Dubstep Electro",
+      "image": "Nexus/Dubstep_Electro.svg",
+      "color": "#efdb3c",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#fff279"
+        },
+        {
+          "offset": "100%",
+          "color": "#dfc400"
+        }
+      ]
+    },
+    {
+      "name": "Dubstep Electro 2",
+      "image": "Nexus/Dubstep_Electro_2.svg",
+      "color": "#e8cc2b",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffed56"
+        },
+        {
+          "offset": "100%",
+          "color": "#d1ac00"
+        }
+      ]
+    },
+    {
+      "name": "Dubstep Electro 3",
+      "image": "Nexus/Dubstep_Electro_3.svg",
+      "color": "#f5c825",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ffdd4a"
+        },
+        {
+          "offset": "1",
+          "color": "#ebb300"
+        }
+      ]
+    },
+    {
+      "name": "Dubstep Electro 4",
+      "image": "Nexus/Dubstep_Electro_4.svg",
+      "color": "#ffc825",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ffdd4a"
+        },
+        {
+          "offset": "1",
+          "color": "#ffb300"
+        }
+      ]
+    },
+    {
+      "name": "EDM",
+      "image": "Nexus/EDM.svg",
+      "color": "#0b87bd",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#0fb7d8"
+        },
+        {
+          "offset": "1",
+          "color": "#0757a2"
+        }
+      ]
+    },
+    {
+      "name": "EDM 10",
+      "image": "Nexus/EDM_10.svg",
+      "color": "#b853dc",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#f796ff"
+        },
+        {
+          "offset": "1",
+          "color": "#7910ba"
+        }
+      ]
+    },
+    {
+      "name": "EDM 11",
+      "image": "Nexus/EDM_11.svg",
+      "color": "#9665f0",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#96a6ff"
+        },
+        {
+          "offset": "1",
+          "color": "#9625e2"
+        }
+      ]
+    },
+    {
+      "name": "EDM 2",
+      "image": "Nexus/EDM_2.svg",
+      "color": "#2180cf",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#43aef0"
+        },
+        {
+          "offset": "1",
+          "color": "#0052af"
+        }
+      ]
+    },
+    {
+      "name": "EDM 3",
+      "image": "Nexus/EDM_3.svg",
+      "color": "#3978c8",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#62a3e6"
+        },
+        {
+          "offset": "1",
+          "color": "#114eaa"
+        }
+      ]
+    },
+    {
+      "name": "EDM 4",
+      "image": "Nexus/EDM_4.svg",
+      "color": "#3f69bd",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#719eea"
+        },
+        {
+          "offset": "1",
+          "color": "#0d3590"
+        }
+      ]
+    },
+    {
+      "name": "EDM 5",
+      "image": "Nexus/EDM_5.svg",
+      "color": "#4464c4",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#7c94f8"
+        },
+        {
+          "offset": "1",
+          "color": "#0d3590"
+        }
+      ]
+    },
+    {
+      "name": "EDM 6",
+      "image": "Nexus/EDM_6.svg",
+      "color": "#4d59c1",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#8e85f3"
+        },
+        {
+          "offset": "100%",
+          "color": "#0d2d90"
+        }
+      ]
+    },
+    {
+      "name": "EDM 7",
+      "image": "Nexus/EDM_7.svg",
+      "color": "#624fc1",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#b885f3"
+        },
+        {
+          "offset": "100%",
+          "color": "#0d1990"
+        }
+      ]
+    },
+    {
+      "name": "EDM 8",
+      "image": "Nexus/EDM_8.svg",
+      "color": "#7e49c1",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#d085f3"
+        },
+        {
+          "offset": "100%",
+          "color": "#2d0d90"
+        }
+      ]
+    },
+    {
+      "name": "EDM 9",
+      "image": "Nexus/EDM_9.svg",
+      "color": "#9a51c7",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#dd95ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#580d90"
+        }
+      ]
+    },
+    {
+      "name": "EDM Leads",
+      "image": "Nexus/EDM_Leads.svg",
+      "color": "#28adcf",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#4adbed"
+        },
+        {
+          "offset": "1",
+          "color": "#067fb1"
+        }
+      ]
+    },
+    {
+      "name": "EDM Voices",
+      "image": "Nexus/EDM_Voices.svg",
+      "color": "#0c6fc1",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#1892d4"
+        },
+        {
+          "offset": "1",
+          "color": "#004dae"
+        }
+      ]
+    },
+    {
+      "name": "EDM Voices 2",
+      "image": "Nexus/EDM_Voices_2.svg",
+      "color": "#0072c8",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#00abe3"
+        },
+        {
+          "offset": "1",
+          "color": "#0039ad"
+        }
+      ]
+    },
+    {
+      "name": "Electrohouse Leads",
+      "image": "Nexus/Electrohouse_Leads.svg",
+      "color": "#ec630f",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#f68d1e"
+        },
+        {
+          "offset": "1",
+          "color": "#e23a00"
+        }
+      ]
+    },
+    {
+      "name": "Electrohouse Leads 2",
+      "image": "Nexus/Electrohouse_Leads_2.svg",
+      "color": "#ff800f",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffac1f"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff5400"
+        }
+      ]
+    },
+    {
+      "name": "Factory content",
+      "image": "Nexus/Factory_content.svg",
+      "color": "#3958e0",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#6483ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#0e2dc1"
+        }
+      ]
+    },
+    {
+      "name": "Factory Content R",
+      "image": "Rippler/Factory_Content_R.svg",
+      "color": "#5fa726",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#bed900"
+        },
+        {
+          "offset": "100%",
+          "color": "#00764d"
+        }
+      ]
+    },
+    {
+      "name": "Factory Content V",
+      "image": "Vanguard/Factory_Content_V.svg",
+      "color": "#5fa726",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#bed900"
+        },
+        {
+          "offset": "100%",
+          "color": "#00764d"
+        }
+      ]
+    },
+    {
+      "name": "Feel Good House",
+      "image": "Nexus/Feel_Good_House.svg",
+      "color": "#c84860",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff916f"
+        },
+        {
+          "offset": "1",
+          "color": "#910052"
+        }
+      ]
+    },
+    {
+      "name": "Festival EDM",
+      "image": "Nexus/Festival_EDM.svg",
+      "color": "#3888b5",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#61b1cc"
+        },
+        {
+          "offset": "1",
+          "color": "#0f609e"
+        }
+      ]
+    },
+    {
+      "name": "Festival EDM 2",
+      "image": "Nexus/Festival_EDM_2.svg",
+      "color": "#258aca",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#42c9e3"
+        },
+        {
+          "offset": "100%",
+          "color": "#084bb2"
+        }
+      ]
+    },
+    {
+      "name": "FM",
+      "image": "Nexus/FM.svg",
+      "color": "#efaa1e",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#fdc82f"
+        },
+        {
+          "offset": "100%",
+          "color": "#e18c0d"
+        }
+      ]
+    },
+    {
+      "name": "FM 2",
+      "image": "Nexus/FM_2.svg",
+      "color": "#ee8f16",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#fdb92c"
+        },
+        {
+          "offset": "1",
+          "color": "#e06600"
+        }
+      ]
+    },
+    {
+      "name": "Freaky Machines",
+      "image": "Nexus/Freaky_Machines.svg",
+      "color": "#24ab46",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#35d57a"
+        },
+        {
+          "offset": "1",
+          "color": "#138213"
+        }
+      ]
+    },
+    {
+      "name": "French House",
+      "image": "Nexus/French_House.svg",
+      "color": "#992f90",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff2b39"
+        },
+        {
+          "offset": "1",
+          "color": "#3434e8"
+        }
+      ]
+    },
+    {
+      "name": "Future Arps",
+      "image": "Nexus/Future_Arps.svg",
+      "color": "#127dea",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#24a7fa"
+        },
+        {
+          "offset": "1",
+          "color": "#0053db"
+        }
+      ]
+    },
+    {
+      "name": "Future Arps 2",
+      "image": "Nexus/Future_Arps_2.svg",
+      "color": "#1691e8",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#2cbdfb"
+        },
+        {
+          "offset": "1",
+          "color": "#0066d6"
+        }
+      ]
+    },
+    {
+      "name": "Future Arps 3",
+      "image": "Nexus/Future_Arps_3.svg",
+      "color": "#14a6e9",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#28cdff"
+        },
+        {
+          "offset": "100%",
+          "color": "#0080d3"
+        }
+      ]
+    },
+    {
+      "name": "Future Arps 4",
+      "image": "Nexus/Future_Arps_4.svg",
+      "color": "#2ac2ea",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#52e1ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#02a3d6"
+        }
+      ]
+    },
+    {
+      "name": "Future Bass",
+      "image": "Nexus/Future_Bass.svg",
+      "color": "#e6234a",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff4666"
+        },
+        {
+          "offset": "100%",
+          "color": "#cd002f"
+        }
+      ]
+    },
+    {
+      "name": "Future Bass 2",
+      "image": "Nexus/Future_Bass_2.svg",
+      "color": "#ec434f",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff6775"
+        },
+        {
+          "offset": "100%",
+          "color": "#da1f2a"
+        }
+      ]
+    },
+    {
+      "name": "Future Chill",
+      "image": "Nexus/Future_Chill.svg",
+      "color": "#d22267",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#e84496"
+        },
+        {
+          "offset": "1",
+          "color": "#bd0039"
+        }
+      ]
+    },
+    {
+      "name": "Future EDM",
+      "image": "Nexus/Future_EDM.svg",
+      "color": "#216dff",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#434fff"
+        },
+        {
+          "offset": "1",
+          "color": "#008cff"
+        }
+      ]
+    },
+    {
+      "name": "Future House",
+      "image": "Nexus/Future_House.svg",
+      "color": "#9b1d3e",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#a73b5b"
+        },
+        {
+          "offset": "100%",
+          "color": "#900021"
+        }
+      ]
+    },
+    {
+      "name": "Future House 2",
+      "image": "Nexus/Future_House_2.svg",
+      "color": "#c22451",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#e4498e"
+        },
+        {
+          "offset": "100%",
+          "color": "#a10014"
+        }
+      ]
+    },
+    {
+      "name": "Future Pop Voices",
+      "image": "Nexus/Future_Pop_Voices.svg",
+      "color": "#253db6",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#4b62da"
+        },
+        {
+          "offset": "100%",
+          "color": "#001893"
+        }
+      ]
+    },
+    {
+      "name": "Future Rave",
+      "image": "Nexus/Future_Rave.svg",
+      "color": "#8a39cd",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff53b8"
+        },
+        {
+          "offset": "100%",
+          "color": "#161fe3"
+        }
+      ]
+    },
+    {
+      "name": "FX",
+      "image": "Nexus/FX.svg",
+      "color": "#1588a7",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#2ab2cc"
+        },
+        {
+          "offset": "1",
+          "color": "#005f82"
+        }
+      ]
+    },
+    {
+      "name": "Guitars",
+      "image": "Nexus/Guitars.svg",
+      "color": "#ff9916",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ffbb2d"
+        },
+        {
+          "offset": "1",
+          "color": "#ff7800"
+        }
+      ]
+    },
+    {
+      "name": "Guitars 2",
+      "image": "Nexus/Guitars_2.svg",
+      "color": "#ff8200",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffab00"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff5a00"
+        }
+      ]
+    },
+    {
+      "name": "Halloween",
+      "image": "Nexus/Halloween.svg",
+      "color": "#e37115",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#e8980a"
+        },
+        {
+          "offset": "1",
+          "color": "#df4a21"
+        }
+      ]
+    },
+    {
+      "name": "HandsUp Electro Bass",
+      "image": "Nexus/HandsUp_Electro_Bass.svg",
+      "color": "#199499",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#2abebf"
+        },
+        {
+          "offset": "1",
+          "color": "#086b74"
+        }
+      ]
+    },
+    {
+      "name": "HandsUp Electro Bass 2",
+      "image": "Nexus/HandsUp_Electro_Bass_2.svg",
+      "color": "#18b6a7",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#30d0c9"
+        },
+        {
+          "offset": "1",
+          "color": "#019c86"
+        }
+      ]
+    },
+    {
+      "name": "HandsUp Electro Bass 3",
+      "image": "Nexus/HandsUp_Electro_Bass_3.svg",
+      "color": "#2abec3",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#33dbdf"
+        },
+        {
+          "offset": "100%",
+          "color": "#21a1a8"
+        }
+      ]
+    },
+    {
+      "name": "HandsUp Leads 1",
+      "image": "Nexus/HandsUp_Leads_1.svg",
+      "color": "#25a794",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#2cc1b5"
+        },
+        {
+          "offset": "1",
+          "color": "#1e8d74"
+        }
+      ]
+    },
+    {
+      "name": "Happy Hardcore",
+      "image": "Nexus/Happy_Hardcore.svg",
+      "color": "#ead200",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffed00"
+        },
+        {
+          "offset": "100%",
+          "color": "#d5b800"
+        }
+      ]
+    },
+    {
+      "name": "Hard Techno",
+      "image": "Nexus/Hard_Techno.svg",
+      "color": "#6f72e6",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#8929ce"
+        },
+        {
+          "offset": "1",
+          "color": "#56bbff"
+        }
+      ]
+    },
+    {
+      "name": "Hardcore Italia",
+      "image": "Nexus/Hardcore_Italia.svg",
+      "color": "#f43d4f"
+    },
+    {
+      "name": "Hardstyle",
+      "image": "Nexus/Hardstyle.svg",
+      "color": "#b2df16",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#d8f22b"
+        },
+        {
+          "offset": "100%",
+          "color": "#8ccc02"
+        }
+      ]
+    },
+    {
+      "name": "Hardstyle 2",
+      "image": "Nexus/Hardstyle_2.svg",
+      "color": "#a2e212",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#bdf225"
+        },
+        {
+          "offset": "100%",
+          "color": "#88d300"
+        }
+      ]
+    },
+    {
+      "name": "Hardstyle 3",
+      "image": "Nexus/Hardstyle_3.svg",
+      "color": "#7ed912",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#8af325"
+        },
+        {
+          "offset": "100%",
+          "color": "#73bf00"
+        }
+      ]
+    },
+    {
+      "name": "Hip Hop",
+      "image": "Nexus/Hip_Hop.svg",
+      "color": "#bd9617",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#d8c22f"
+        },
+        {
+          "offset": "1",
+          "color": "#a36b00"
+        }
+      ]
+    },
+    {
+      "name": "Hip Hop 2",
+      "image": "Nexus/Hip_Hop_2.svg",
+      "color": "#e8ad16",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#efd024"
+        },
+        {
+          "offset": "1",
+          "color": "#e18a08"
+        }
+      ]
+    },
+    {
+      "name": "Hip Hop 3",
+      "image": "Nexus/Hip_Hop_3.svg",
+      "color": "#e6bc28",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#efd834"
+        },
+        {
+          "offset": "100%",
+          "color": "#dda01c"
+        }
+      ]
+    },
+    {
+      "name": "Hip Hop 4",
+      "image": "Nexus/Hip_Hop_4.svg",
+      "color": "#e6ce36",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#efe644"
+        },
+        {
+          "offset": "100%",
+          "color": "#ddb628"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood",
+      "image": "Nexus/Hollywood.svg",
+      "color": "#214c93",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#436db1"
+        },
+        {
+          "offset": "1",
+          "color": "#002c75"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 2 Bundle",
+      "image": "Nexus/Hollywood_2_Bundle.svg",
+      "color": "#982d28",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#b95851"
+        },
+        {
+          "offset": "1",
+          "color": "#770300"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 2 Core Library",
+      "image": "Nexus/Hollywood_2_Core_Library.svg",
+      "color": "#982d28",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#b95851"
+        },
+        {
+          "offset": "1",
+          "color": "#770300"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 2 Drums FX",
+      "image": "Nexus/Hollywood_2_Drums_FX.svg",
+      "color": "#982d28",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#b95851"
+        },
+        {
+          "offset": "1",
+          "color": "#770300"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 2 Strings",
+      "image": "Nexus/Hollywood_2_Strings.svg",
+      "color": "#982d28",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#b95851"
+        },
+        {
+          "offset": "1",
+          "color": "#770300"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 2 Winds Brass",
+      "image": "Nexus/Hollywood_2_Winds_Brass.svg",
+      "color": "#982d28",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#b95851"
+        },
+        {
+          "offset": "1",
+          "color": "#770300"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 3 Bundle",
+      "image": "Nexus/Hollywood_3_Bundle.svg",
+      "color": "#437a8a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#6da8b8"
+        },
+        {
+          "offset": "1",
+          "color": "#1a4d5d"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 3 Drumkits Percussions",
+      "image": "Nexus/Hollywood_3_Drumkits_Percussions.svg",
+      "color": "#437a8a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#6da8b8"
+        },
+        {
+          "offset": "1",
+          "color": "#1a4d5d"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 3 Epic Collection",
+      "image": "Nexus/Hollywood_3_Epic_Collection.svg",
+      "color": "#437a8a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#6da8b8"
+        },
+        {
+          "offset": "1",
+          "color": "#1a4d5d"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 3 Ethno",
+      "image": "Nexus/Hollywood_3_Ethno.svg",
+      "color": "#437a8a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#6da8b8"
+        },
+        {
+          "offset": "1",
+          "color": "#1a4d5d"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood 3 Guitars",
+      "image": "Nexus/Hollywood_3_Guitars.svg",
+      "color": "#437a8a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#6da8b8"
+        },
+        {
+          "offset": "1",
+          "color": "#1a4d5d"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Action Trailer",
+      "image": "Nexus/Hollywood_Action_Trailer.svg",
+      "color": "#437a8a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#6da8b8"
+        },
+        {
+          "offset": "1",
+          "color": "#1a4d5d"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Percussion Loops",
+      "image": "Nexus/Hollywood_Percussion_Loops.svg",
+      "color": "#2871a2",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#4b97be"
+        },
+        {
+          "offset": "1",
+          "color": "#054c86"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Percussion Loops 2",
+      "image": "Nexus/Hollywood_Percussion_Loops_2.svg",
+      "color": "#177bc9",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#2e94d9"
+        },
+        {
+          "offset": "1",
+          "color": "#0063ba"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Piano",
+      "image": "Nexus/Hollywood_Piano.svg",
+      "color": "#452a71",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#71489c"
+        },
+        {
+          "offset": "100%",
+          "color": "#190d47"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Sound FX",
+      "image": "Nexus/Hollywood_Sound_FX.svg",
+      "color": "#42827e",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#69a6a4"
+        },
+        {
+          "offset": "1",
+          "color": "#1c5f58"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Synth Edition",
+      "image": "Nexus/Hollywood_Synth_Edition.svg",
+      "color": "#972c28",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#b85750"
+        },
+        {
+          "offset": "100%",
+          "color": "#770200"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Synth Edition 2",
+      "image": "Nexus/Hollywood_Synth_Edition_2.svg",
+      "color": "#ac2333",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#cd364b"
+        },
+        {
+          "offset": "1",
+          "color": "#8b101b"
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Synth Edition 3",
+      "image": "Nexus/Hollywood_Synth_Edition_3.svg",
+      "color": "#bf1d2b",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ed3b56"
+        },
+        {
+          "offset": "1",
+          "color": "#920000"
+        }
+      ]
+    },
+    {
+      "name": "House Vol 1",
+      "image": "Nexus/House_Vol_1.svg",
+      "color": "#c02a20",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#f04f40"
+        },
+        {
+          "offset": "1",
+          "color": "#900600"
+        }
+      ]
+    },
+    {
+      "name": "House Vol 2",
+      "image": "Nexus/House_Vol_2.svg",
+      "color": "#c03720",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#f06940"
+        },
+        {
+          "offset": "1",
+          "color": "#900600"
+        }
+      ]
+    },
+    {
+      "name": "House Vol 3",
+      "image": "Nexus/House_Vol_3.svg",
+      "color": "#da531a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff8534"
+        },
+        {
+          "offset": "1",
+          "color": "#b52200"
+        }
+      ]
+    },
+    {
+      "name": "Hyper Techno",
+      "image": "Nexus/Hyper_Techno.svg",
+      "color": "#ac27bc",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff4fae"
+        },
+        {
+          "offset": "1",
+          "color": "#5900ca"
+        }
+      ]
+    },
+    {
+      "name": "Hyperpop",
+      "image": "Nexus/Hyperpop.svg",
+      "color": "#f42190",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff4278"
+        },
+        {
+          "offset": "1",
+          "color": "#ea00a8"
+        }
+      ]
+    },
+    {
+      "name": "Hypnotic Techno",
+      "image": "Nexus/Hypnotic_Techno.svg",
+      "color": "#7f41c0",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff3597"
+        },
+        {
+          "offset": "1",
+          "color": "#004ee9"
+        }
+      ]
+    },
+    {
+      "name": "Italo Disco",
+      "image": "Nexus/Italo_Disco.svg",
+      "color": "#ee3d5f",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff6381"
+        },
+        {
+          "offset": "100%",
+          "color": "#dd173e"
+        }
+      ]
+    },
+    {
+      "name": "Jungle",
+      "image": "Nexus/Jungle.svg",
+      "color": "#386836",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#599049"
+        },
+        {
+          "offset": "1",
+          "color": "#184024"
+        }
+      ]
+    },
+    {
+      "name": "K Pop",
+      "image": "Nexus/K_Pop.svg",
+      "color": "#8d49f8",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff61ff"
+        },
+        {
+          "offset": "1",
+          "color": "#1b31f1"
+        }
+      ]
+    },
+    {
+      "name": "Kamui",
+      "image": "Nexus/Kamui.svg",
+      "color": "#ff4439",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff6259"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff261a"
+        }
+      ]
+    },
+    {
+      "name": "Kamui 2",
+      "image": "Nexus/Kamui_2.svg",
+      "color": "#f85c4f",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff8c71"
+        },
+        {
+          "offset": "1",
+          "color": "#f22d2e"
+        }
+      ]
+    },
+    {
+      "name": "Latin House",
+      "image": "Nexus/Latin_House.svg",
+      "color": "#b62b1d",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#dd5739"
+        },
+        {
+          "offset": "1",
+          "color": "#900002"
+        }
+      ]
+    },
+    {
+      "name": "Lo fi",
+      "image": "Nexus/Lo_fi.svg",
+      "color": "#bc524a",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#cb7d59"
+        },
+        {
+          "offset": "100%",
+          "color": "#ae283b"
+        }
+      ]
+    },
+    {
+      "name": "Lo fi 2",
+      "image": "Nexus/Lo_fi_2.svg",
+      "color": "#d4553c",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#f29048"
+        },
+        {
+          "offset": "100%",
+          "color": "#b71a30"
+        }
+      ]
+    },
+    {
+      "name": "Melodic Techno",
+      "image": "Nexus/Melodic_Techno.svg",
+      "color": "#9a25af",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff4a7a"
+        },
+        {
+          "offset": "100%",
+          "color": "#3600e4"
+        }
+      ]
+    },
+    {
+      "name": "Melodic Techno 2",
+      "image": "Nexus/Melodic_Techno_2.svg",
+      "color": "#9929d4",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff53c4"
+        },
+        {
+          "offset": "100%",
+          "color": "#3300e4"
+        }
+      ]
+    },
+    {
+      "name": "Melodic Techno 3",
+      "image": "Nexus/Melodic_Techno_3.svg",
+      "color": "#a431db",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#f262d3"
+        },
+        {
+          "offset": "1",
+          "color": "#5700e4"
+        }
+      ]
+    },
+    {
+      "name": "Melodic Techno 4",
+      "image": "Nexus/Melodic_Techno_4.svg",
+      "color": "#aa3bfb",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#f476ff"
+        },
+        {
+          "offset": "1",
+          "color": "#6100f8"
+        }
+      ]
+    },
+    {
+      "name": "Millennium Pop",
+      "image": "Nexus/Millennium_Pop.svg",
+      "color": "#f88a1a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ffb425"
+        },
+        {
+          "offset": "1",
+          "color": "#f2600f"
+        }
+      ]
+    },
+    {
+      "name": "Millennium Pop 2",
+      "image": "Nexus/Millennium_Pop_2.svg",
+      "color": "#f07512",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff9b25"
+        },
+        {
+          "offset": "1",
+          "color": "#e25000"
+        }
+      ]
+    },
+    {
+      "name": "Minimal House",
+      "image": "Nexus/Minimal_House.svg",
+      "color": "#aa0e04",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#dc1909"
+        },
+        {
+          "offset": "1",
+          "color": "#780300"
+        }
+      ]
+    },
+    {
+      "name": "Minimal House 2",
+      "image": "Nexus/Minimal_House_2.svg",
+      "color": "#a02800",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#c94e00"
+        },
+        {
+          "offset": "1",
+          "color": "#780300"
+        }
+      ]
+    },
+    {
+      "name": "Moombahton",
+      "image": "Nexus/Moombahton.svg",
+      "color": "#d12d11",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#f75623"
+        },
+        {
+          "offset": "100%",
+          "color": "#ac0400"
+        }
+      ]
+    },
+    {
+      "name": "Moombahton 2",
+      "image": "Nexus/Moombahton_2.svg",
+      "color": "#b71500",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#e42600"
+        },
+        {
+          "offset": "100%",
+          "color": "#8a0400"
+        }
+      ]
+    },
+    {
+      "name": "More Cowbell",
+      "image": "Nexus/More_Cowbell.svg",
+      "color": "#dd930b",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#e5bc16"
+        },
+        {
+          "offset": "1",
+          "color": "#d56a00"
+        }
+      ]
+    },
+    {
+      "name": "N5 Factory Presets",
+      "image": "Nexus/N5_Factory_Presets.svg",
+      "color": "#a23299",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff654a"
+        },
+        {
+          "offset": "1",
+          "color": "#4600e8"
+        }
+      ]
+    },
+    {
+      "name": "NuDisco",
+      "image": "Nexus/NuDisco.svg",
+      "color": "#e71f69",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff3fa5"
+        },
+        {
+          "offset": "100%",
+          "color": "#cf002d"
+        }
+      ]
+    },
+    {
+      "name": "NuElectro",
+      "image": "Nexus/NuElectro.svg",
+      "color": "#224de7",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#416cff"
+        },
+        {
+          "offset": "1",
+          "color": "#042fcf"
+        }
+      ]
+    },
+    {
+      "name": "Omicron",
+      "image": "Nexus/Omicron.svg",
+      "color": "#b218e2",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#eb31fd"
+        },
+        {
+          "offset": "100%",
+          "color": "#7900c8"
+        }
+      ]
+    },
+    {
+      "name": "Omicron 2",
+      "image": "Nexus/Omicron_2.svg",
+      "color": "#c43af2",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ed75ff"
+        },
+        {
+          "offset": "1",
+          "color": "#9b00e6"
+        }
+      ]
+    },
+    {
+      "name": "Omicron 3",
+      "image": "Nexus/Omicron_3.svg",
+      "color": "#d064ff",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#dd9fff"
+        },
+        {
+          "offset": "1",
+          "color": "#c32aff"
+        }
+      ]
+    },
+    {
+      "name": "Perpetual Motion",
+      "image": "Nexus/Perpetual_Motion.svg",
+      "color": "#402fef",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#805cff"
+        },
+        {
+          "offset": "1",
+          "color": "#0002e0"
+        }
+      ]
+    },
+    {
+      "name": "Phonk",
+      "image": "Nexus/Phonk.svg",
+      "color": "#2b0840",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#481162"
+        },
+        {
+          "offset": "1",
+          "color": "#0e001f"
+        }
+      ]
+    },
+    {
+      "name": "Pop",
+      "image": "Nexus/Pop.svg",
+      "color": "#6e50ff",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ae66ff"
+        },
+        {
+          "offset": "1",
+          "color": "#2e3aff"
+        }
+      ]
+    },
+    {
+      "name": "Prog Tech House",
+      "image": "Nexus/Prog_Tech_House.svg",
+      "color": "#c56309",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#eca013"
+        },
+        {
+          "offset": "1",
+          "color": "#9e2600"
+        }
+      ]
+    },
+    {
+      "name": "Prog Tech House 2",
+      "image": "Nexus/Prog_Tech_House_2.svg",
+      "color": "#cd5417",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff8c2e"
+        },
+        {
+          "offset": "1",
+          "color": "#9b1d00"
+        }
+      ]
+    },
+    {
+      "name": "Progressive House",
+      "image": "Nexus/Progressive_House.svg",
+      "color": "#da4255",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff8566"
+        },
+        {
+          "offset": "1",
+          "color": "#b50044"
+        }
+      ]
+    },
+    {
+      "name": "Progressive Trance",
+      "image": "Nexus/Progressive_Trance.svg",
+      "color": "#424aee",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#0095ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#8500dd"
+        }
+      ]
+    },
+    {
+      "name": "Psytrance",
+      "image": "Nexus/Psytrance.svg",
+      "color": "#9ca90c",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#d8d918"
+        },
+        {
+          "offset": "1",
+          "color": "#617900"
+        }
+      ]
+    },
+    {
+      "name": "Psytrance 2",
+      "image": "Nexus/Psytrance_2.svg",
+      "color": "#7dae00",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#c3e400"
+        },
+        {
+          "offset": "100%",
+          "color": "#387900"
+        }
+      ]
+    },
+    {
+      "name": "Rauschwerk",
+      "image": "Nexus/Rauschwerk.svg",
+      "color": "#1f48de",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#3e6bff"
+        },
+        {
+          "offset": "1",
+          "color": "#0025be"
+        }
+      ]
+    },
+    {
+      "name": "Rauschwerk 2",
+      "image": "Nexus/Rauschwerk_2.svg",
+      "color": "#453fde",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#8a59ff"
+        },
+        {
+          "offset": "1",
+          "color": "#0025be"
+        }
+      ]
+    },
+    {
+      "name": "Rauschwerk 3",
+      "image": "Nexus/Rauschwerk_3.svg",
+      "color": "#7b45f8",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#986eff"
+        },
+        {
+          "offset": "1",
+          "color": "#5e1cf2"
+        }
+      ]
+    },
+    {
+      "name": "Reggaeton",
+      "image": "Nexus/Reggaeton.svg",
+      "color": "#dfaf22",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffd844"
+        },
+        {
+          "offset": "100%",
+          "color": "#bf8700"
+        }
+      ]
+    },
+    {
+      "name": "Reggaeton 2",
+      "image": "Nexus/Reggaeton_2.svg",
+      "color": "#f9b228",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffdb50"
+        },
+        {
+          "offset": "100%",
+          "color": "#f48900"
+        }
+      ]
+    },
+    {
+      "name": "Reggaeton 3",
+      "image": "Nexus/Reggaeton_3.svg",
+      "color": "#ffa328",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffcb50"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff7c00"
+        }
+      ]
+    },
+    {
+      "name": "Reverb Impulse Response",
+      "image": "Nexus/Reverb_Impulse_Response.svg",
+      "color": "#9213b7",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ae26ce"
+        },
+        {
+          "offset": "1",
+          "color": "#7700a0"
+        }
+      ]
+    },
+    {
+      "name": "ROM Extension",
+      "image": "Nexus/ROM_Extension.svg",
+      "color": "#1d4efd",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#3b6bff"
+        },
+        {
+          "offset": "100%",
+          "color": "#0031fb"
+        }
+      ]
+    },
+    {
+      "name": "ROM Extension 2",
+      "image": "Nexus/ROM_Extension_2.svg",
+      "color": "#3b48fd",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#7785ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#000bfb"
+        }
+      ]
+    },
+    {
+      "name": "ROM Extension 3",
+      "image": "Nexus/ROM_Extension_3.svg",
+      "color": "#683bfd",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#8677ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#4b00fb"
+        }
+      ]
+    },
+    {
+      "name": "ROM Extension 4",
+      "image": "Nexus/ROM_Extension_4.svg",
+      "color": "#8440d9",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#bd80b7"
+        },
+        {
+          "offset": "100%",
+          "color": "#4b00fb"
+        }
+      ]
+    },
+    {
+      "name": "SID",
+      "image": "Nexus/SID.svg",
+      "color": "#eadf1e",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#fff43d"
+        },
+        {
+          "offset": "100%",
+          "color": "#d6ca00"
+        }
+      ]
+    },
+    {
+      "name": "Slap House",
+      "image": "Nexus/Slap_House.svg",
+      "color": "#ea284d",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff516d"
+        },
+        {
+          "offset": "100%",
+          "color": "#d5002d"
+        }
+      ]
+    },
+    {
+      "name": "Slap House 2",
+      "image": "Nexus/Slap_House_2.svg",
+      "color": "#e02254",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff458e"
+        },
+        {
+          "offset": "100%",
+          "color": "#c2001b"
+        }
+      ]
+    },
+    {
+      "name": "Sound of the 70s",
+      "image": "Nexus/Sound_of_the_70s.svg",
+      "color": "#cf5f00",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#f68f00"
+        },
+        {
+          "offset": "100%",
+          "color": "#a82f00"
+        }
+      ]
+    },
+    {
+      "name": "Sound of the 80s",
+      "image": "Nexus/Sound_of_the_80s.svg",
+      "color": "#c047e9",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#dc73ff"
+        },
+        {
+          "offset": "1",
+          "color": "#a41cd4"
+        }
+      ]
+    },
+    {
+      "name": "Sound of the 90s",
+      "image": "Nexus/Sound_of_the_90s.svg",
+      "color": "#c68108",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#d0a910"
+        },
+        {
+          "offset": "1",
+          "color": "#bc5a00"
+        }
+      ]
+    },
+    {
+      "name": "Sound of the 90s Vol 2",
+      "image": "Nexus/Sound_of_the_90s_Vol_2.svg",
+      "color": "#c67100",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#e49c00"
+        },
+        {
+          "offset": "100%",
+          "color": "#a84600"
+        }
+      ]
+    },
+    {
+      "name": "Sounds of the Summer",
+      "image": "Nexus/Sounds_of_the_Summer.svg",
+      "color": "#fb7f24",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ffa634"
+        },
+        {
+          "offset": "1",
+          "color": "#f85814"
+        }
+      ]
+    },
+    {
+      "name": "Sounds of the Summer 2",
+      "image": "Nexus/Sounds_of_the_Summer_2.svg",
+      "color": "#ff9f20",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ffc741"
+        },
+        {
+          "offset": "1",
+          "color": "#f70"
+        }
+      ]
+    },
+    {
+      "name": "Sounds of the Summer 3",
+      "image": "Nexus/Sounds_of_the_Summer_3.svg",
+      "color": "#ffb221",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffcf42"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff9500"
+        }
+      ]
+    },
+    {
+      "name": "Spinning House",
+      "image": "Nexus/Spinning_House.svg",
+      "color": "#e54640",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#f96a5e"
+        },
+        {
+          "offset": "1",
+          "color": "#d22223"
+        }
+      ]
+    },
+    {
+      "name": "Spinning House 2",
+      "image": "Nexus/Spinning_House_2.svg",
+      "color": "#d31d21",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#f23b3f"
+        },
+        {
+          "offset": "100%",
+          "color": "#b50004"
+        }
+      ]
+    },
+    {
+      "name": "Store n Forward",
+      "image": "Nexus/Store_n_Forward.svg",
+      "color": "#2b86ec",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#56adfc"
+        },
+        {
+          "offset": "1",
+          "color": "#0060dd"
+        }
+      ]
+    },
+    {
+      "name": "Stratosphere",
+      "image": "Nexus/Stratosphere.svg",
+      "color": "#1438c6",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#2953ea"
+        },
+        {
+          "offset": "1",
+          "color": "#001da3"
+        }
+      ]
+    },
+    {
+      "name": "Stratosphere 2",
+      "image": "Nexus/Stratosphere_2.svg",
+      "color": "#005abb",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#0082d5"
+        },
+        {
+          "offset": "1",
+          "color": "#0033a1"
+        }
+      ]
+    },
+    {
+      "name": "Stratosphere 3",
+      "image": "Nexus/Stratosphere_3.svg",
+      "color": "#02649d",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#0588bb"
+        },
+        {
+          "offset": "1",
+          "color": "#00417f"
+        }
+      ]
+    },
+    {
+      "name": "Studio Production 1",
+      "image": "Nexus/Studio_Production_1.svg",
+      "color": "#3d3f65",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#6d6790"
+        },
+        {
+          "offset": "100%",
+          "color": "#0e173a"
+        }
+      ]
+    },
+    {
+      "name": "Studio Production 2",
+      "image": "Nexus/Studio_Production_2.svg",
+      "color": "#374473",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#657da3"
+        },
+        {
+          "offset": "100%",
+          "color": "#0a0c43"
+        }
+      ]
+    },
+    {
+      "name": "Studio Production 3 Guitars",
+      "image": "Nexus/Studio_Production_3_Guitars.svg",
+      "color": "#3e5581",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#729fc0"
+        },
+        {
+          "offset": "100%",
+          "color": "#0a0b43"
+        }
+      ]
+    },
+    {
+      "name": "Summer Deep Chill",
+      "image": "Nexus/Summer_Deep_Chill.svg",
+      "color": "#ab517d",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff8f55"
+        },
+        {
+          "offset": "1",
+          "color": "#5813a6"
+        }
+      ]
+    },
+    {
+      "name": "Swedish House",
+      "image": "Nexus/Swedish_House.svg",
+      "color": "#cf2048",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ed417b"
+        },
+        {
+          "offset": "1",
+          "color": "#b20016"
+        }
+      ]
+    },
+    {
+      "name": "Swedish House 2",
+      "image": "Nexus/Swedish_House_2.svg",
+      "color": "#f1406b",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#f76796"
+        },
+        {
+          "offset": "1",
+          "color": "#ec1a40"
+        }
+      ]
+    },
+    {
+      "name": "Synthetic Textures",
+      "image": "Nexus/Synthetic_Textures.svg",
+      "color": "#922291",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#b144b2"
+        },
+        {
+          "offset": "1",
+          "color": "#730071"
+        }
+      ]
+    },
+    {
+      "name": "Synthwave",
+      "image": "Nexus/Synthwave.svg",
+      "color": "#c41b82",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff3690"
+        },
+        {
+          "offset": "100%",
+          "color": "#890075"
+        }
+      ]
+    },
+    {
+      "name": "Synthwave 2",
+      "image": "Nexus/Synthwave_2.svg",
+      "color": "#ba07a8",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff0e80"
+        },
+        {
+          "offset": "100%",
+          "color": "#7500d1"
+        }
+      ]
+    },
+    {
+      "name": "Tech Essentials",
+      "image": "Nexus/Tech_Essentials.svg",
+      "color": "#faa122",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffb844"
+        },
+        {
+          "offset": "100%",
+          "color": "#f68a00"
+        }
+      ]
+    },
+    {
+      "name": "Tech House",
+      "image": "Nexus/Tech_House.svg",
+      "color": "#df287f",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff51ba"
+        },
+        {
+          "offset": "1",
+          "color": "#bf0045"
+        }
+      ]
+    },
+    {
+      "name": "Techno",
+      "image": "Nexus/Techno.svg",
+      "color": "#943da2",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#eb4e88"
+        },
+        {
+          "offset": "100%",
+          "color": "#3d2cbc"
+        }
+      ]
+    },
+    {
+      "name": "Techno 2",
+      "image": "Nexus/Techno_2.svg",
+      "color": "#7332d5",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#e64eeb"
+        },
+        {
+          "offset": "100%",
+          "color": "#0016bf"
+        }
+      ]
+    },
+    {
+      "name": "Total Piano",
+      "image": "Nexus/Total_Piano.svg",
+      "color": "#835245",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#b16c58"
+        },
+        {
+          "offset": "1",
+          "color": "#553833"
+        }
+      ]
+    },
+    {
+      "name": "Trance Anthems",
+      "image": "Nexus/Trance_Anthems.svg",
+      "color": "#1d94dd",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#3ac0f9"
+        },
+        {
+          "offset": "1",
+          "color": "#0069c1"
+        }
+      ]
+    },
+    {
+      "name": "Trance Anthems 2",
+      "image": "Nexus/Trance_Anthems_2.svg",
+      "color": "#2fb2f8",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#5ecbff"
+        },
+        {
+          "offset": "1",
+          "color": "#009af1"
+        }
+      ]
+    },
+    {
+      "name": "Trance Elements",
+      "image": "Nexus/Trance_Elements.svg",
+      "color": "#2ecaff",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#5ddfff"
+        },
+        {
+          "offset": "100%",
+          "color": "#00b5ff"
+        }
+      ]
+    },
+    {
+      "name": "Trance Leads",
+      "image": "Nexus/Trance_Leads.svg",
+      "color": "#3ece5d",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#59e28c"
+        },
+        {
+          "offset": "100%",
+          "color": "#23ba2f"
+        }
+      ]
+    },
+    {
+      "name": "Trance Leads 2",
+      "image": "Nexus/Trance_Leads_2.svg",
+      "color": "#15ac30",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#22cc59"
+        },
+        {
+          "offset": "1",
+          "color": "#088d07"
+        }
+      ]
+    },
+    {
+      "name": "Trance Universe",
+      "image": "Nexus/Trance_Universe.svg",
+      "color": "#7a5df3",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#b573ff"
+        },
+        {
+          "offset": "1",
+          "color": "#3f47e8"
+        }
+      ]
+    },
+    {
+      "name": "Trance Voices",
+      "image": "Nexus/Trance_Voices.svg",
+      "color": "#22a5f1",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#39d8ff"
+        },
+        {
+          "offset": "100%",
+          "color": "#0b73e3"
+        }
+      ]
+    },
+    {
+      "name": "Trap",
+      "image": "Nexus/Trap.svg",
+      "color": "#bb8e0f",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#d2b218"
+        },
+        {
+          "offset": "1",
+          "color": "#a56b06"
+        }
+      ]
+    },
+    {
+      "name": "Trap 2",
+      "image": "Nexus/Trap_2.svg",
+      "color": "#d28924",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ebb340"
+        },
+        {
+          "offset": "1",
+          "color": "#ba6009"
+        }
+      ]
+    },
+    {
+      "name": "Trap 3",
+      "image": "Nexus/Trap_3.svg",
+      "color": "#e47b1e",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ffaf3c"
+        },
+        {
+          "offset": "1",
+          "color": "#ca4700"
+        }
+      ]
+    },
+    {
+      "name": "Trap 4",
+      "image": "Nexus/Trap_4.svg",
+      "color": "#e56025",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff944a"
+        },
+        {
+          "offset": "1",
+          "color": "#cb2d00"
+        }
+      ]
+    },
+    {
+      "name": "Tropical House",
+      "image": "Nexus/Tropical_House.svg",
+      "color": "#ff7f34",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffc169"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff3d00"
+        }
+      ]
+    },
+    {
+      "name": "Tropical House 2",
+      "image": "Nexus/Tropical_House_2.svg",
+      "color": "#ff642a",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff8c54"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff3d00"
+        }
+      ]
+    },
+    {
+      "name": "Tropical House 3",
+      "image": "Nexus/Tropical_House_3.svg",
+      "color": "#ff5440",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff8c54"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff1d2d"
+        }
+      ]
+    },
+    {
+      "name": "Tropical House 4",
+      "image": "Nexus/Tropical_House_4.svg",
+      "color": "#ff3c30",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff784f"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff0012"
+        }
+      ]
+    },
+    {
+      "name": "Tropical House 5",
+      "image": "Nexus/Tropical_House_5.svg",
+      "color": "#ff4758",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ff8e4f"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff0061"
+        }
+      ]
+    },
+    {
+      "name": "TV Movie Game",
+      "image": "Nexus/TV_Movie_Game.svg",
+      "color": "#a56a12",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#c69725"
+        },
+        {
+          "offset": "1",
+          "color": "#843d00"
+        }
+      ]
+    },
+    {
+      "name": "Twerk",
+      "image": "Nexus/Twerk.svg",
+      "color": "#ff601a",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#ff9035"
+        },
+        {
+          "offset": "1",
+          "color": "#ff3000"
+        }
+      ]
+    },
+    {
+      "name": "UK Garage",
+      "image": "Nexus/UK_Garage.svg",
+      "color": "#793b79",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#f04143"
+        },
+        {
+          "offset": ".49",
+          "color": "#7c3b79"
+        },
+        {
+          "offset": "1",
+          "color": "#0035b1"
+        }
+      ]
+    },
+    {
+      "name": "UK House",
+      "image": "Nexus/UK_House.svg",
+      "color": "#721f60",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#e41335"
+        },
+        {
+          "offset": "100%",
+          "color": "#002b8c"
+        }
+      ]
+    },
+    {
+      "name": "Vaporwave",
+      "image": "Nexus/Vaporwave.svg",
+      "color": "#de3a56",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ff742a"
+        },
+        {
+          "offset": "1",
+          "color": "#be0082"
+        }
+      ]
+    },
+    {
+      "name": "Vintage Drumkits",
+      "image": "Nexus/Vintage_Drumkits.svg",
+      "color": "#3ac3d6",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#6ad9ea"
+        },
+        {
+          "offset": "1",
+          "color": "#0aaec3"
+        }
+      ]
+    },
+    {
+      "name": "Vintage Synths",
+      "image": "Nexus/Vintage_Synths.svg",
+      "color": "#ffa524",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffc349"
+        },
+        {
+          "offset": "100%",
+          "color": "#f80"
+        }
+      ]
+    },
+    {
+      "name": "Vintage Synths 2",
+      "image": "Nexus/Vintage_Synths_2.svg",
+      "color": "#ff7f35",
+      "gradient": [
+        {
+          "offset": "0%",
+          "color": "#ffca49"
+        },
+        {
+          "offset": "100%",
+          "color": "#ff3521"
+        }
+      ]
+    },
+    {
+      "name": "Vintage Synths 3",
+      "image": "Nexus/Vintage_Synths_3.svg",
+      "color": "#ff7a10",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#fa0"
+        },
+        {
+          "offset": "1",
+          "color": "#ff4a21"
+        }
+      ]
+    },
+    {
+      "name": "Vintage Synths 4",
+      "image": "Nexus/Vintage_Synths_4.svg",
+      "color": "#ff6d2d",
+      "gradient": [
+        {
+          "offset": null,
+          "color": "#ffa332"
+        },
+        {
+          "offset": "1",
+          "color": "#ff3728"
+        }
+      ]
+    },
+    {
+      "name": "Vocoder",
+      "image": "Nexus/Vocoder.svg",
+      "color": "#4679da",
+      "gradient": [
+        {
+          "offset": "0",
+          "color": "#778cf0"
+        },
+        {
+          "offset": "1",
+          "color": "#1567c4"
+        }
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "name": "header nexus",
+      "image": "Nexus/header_nexus.svg"
+    },
+    {
+      "name": "header nexus2",
+      "image": "Nexus/header_nexus2.svg"
+    },
+    {
+      "name": "header nexus2hex",
+      "image": "Nexus/header_nexus2hex.svg"
+    },
+    {
+      "name": "header nexus2old",
+      "image": "Nexus/header_nexus2old.svg"
+    },
+    {
+      "name": "header nexus3",
+      "image": "Nexus/header_nexus3.svg"
+    },
+    {
+      "name": "header nexus4",
+      "image": "Nexus/header_nexus4.svg"
+    },
+    {
+      "name": "header nexus5",
+      "image": "Nexus/header_nexus5.svg"
+    },
+    {
+      "name": "header rippler",
+      "image": "Rippler/header_rippler.svg"
+    },
+    {
+      "name": "header vanguard",
+      "image": "Vanguard/header_vanguard.svg"
+    },
+    {
+      "name": "Nexus3",
+      "image": "Nexus/Nexus3.svg"
+    },
+    {
+      "name": "Nexus4",
+      "image": "Nexus/Nexus4.svg"
+    },
+    {
+      "name": "Nexus5",
+      "image": "Nexus/Nexus5.svg"
+    },
+    {
+      "name": "refx logo",
+      "image": "Nexus/refx_logo.svg"
+    }
+  ]
 }

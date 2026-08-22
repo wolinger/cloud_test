@@ -110,111 +110,6 @@ def _extrai_gradientes(svg_texto):
 
 
 # =========================================================
-# EXTRAI O GRADIENTE PRINCIPAL DO SVG
-# Preserva offsets e cores do gradiente usado no primeiro path.
-# =========================================================
-
-def extrai_gradiente_principal(svg_texto):
-    gradientes = {}
-
-    for bloco in re.finditer(
-        r'<linearGradient\b[^>]*\bid=["\']([^"\']+)["\'][^>]*>(.*?)</linearGradient>',
-        svg_texto,
-        re.DOTALL | re.IGNORECASE
-    ):
-        grad_id = bloco.group(1)
-        conteudo = bloco.group(2)
-        stops = []
-
-        for stop in re.finditer(r'<stop\b([^>]*)/?>', conteudo, re.IGNORECASE):
-            attrs = stop.group(1)
-
-            offset_match = re.search(
-                r'\boffset\s*=\s*["\']([^"\']+)["\']',
-                attrs,
-                re.IGNORECASE
-            )
-
-            color_match = re.search(
-                r'\bstop-color\s*=\s*["\'](#[0-9a-fA-F]{3,8})["\']',
-                attrs,
-                re.IGNORECASE
-            )
-
-            if not color_match:
-                style_match = re.search(
-                    r'\bstyle\s*=\s*["\']([^"\']+)["\']',
-                    attrs,
-                    re.IGNORECASE
-                )
-
-                if style_match:
-                    color_match = re.search(
-                        r'stop-color\s*:\s*(#[0-9a-fA-F]{3,8})',
-                        style_match.group(1),
-                        re.IGNORECASE
-                    )
-
-            if not color_match:
-                continue
-
-            cor = color_match.group(1).lower()
-
-            # Ignora alpha se vier #RRGGBBAA.
-            if len(cor) == 9:
-                cor = cor[:7]
-
-            if not _cor_e_valida(cor):
-                continue
-
-            stops.append({
-                "offset": offset_match.group(1) if offset_match else None,
-                "color": cor
-            })
-
-        if stops:
-            gradientes[grad_id] = stops
-
-    # Tenta usar o gradiente realmente aplicado ao primeiro path.
-    primeiro_path = re.search(r'<path\b[^>]*>', svg_texto, re.IGNORECASE)
-
-    if primeiro_path:
-        fill_match = re.search(
-            r'fill\s*=\s*["\']url\(#([^)]+)\)["\']',
-            primeiro_path.group(0),
-            re.IGNORECASE
-        )
-
-        if fill_match:
-            gradiente = gradientes.get(fill_match.group(1))
-
-            if gradiente and len(gradiente) >= 2:
-                return gradiente
-
-    # Fallback: primeiro gradiente válido com pelo menos 2 stops.
-    for gradiente in gradientes.values():
-        if len(gradiente) >= 2:
-            return gradiente
-
-    return None
-
-
-def analisa_svg(caminho_svg):
-    try:
-        with open(caminho_svg, "r", encoding="utf-8") as f:
-            svg_texto = f.read()
-
-        return (
-            extrai_cor_principal(svg_texto),
-            extrai_gradiente_principal(svg_texto)
-        )
-
-    except Exception as e:
-        print(f"Aviso: não deu pra analisar {caminho_svg}: {e}")
-        return None, None
-
-
-# =========================================================
 # EXTRAI A COR PRINCIPAL DE UM SVG
 # =========================================================
 
@@ -387,7 +282,7 @@ for arquivo in arquivos:
     # =====================================================
 
     else:
-        cor, gradiente = analisa_svg(
+        cor = busca_cor_do_svg(
             arquivo["path"]
         )
 
@@ -396,11 +291,6 @@ for arquivo in arquivos:
             "image": caminho_imagem,
             "color": cor
         }
-
-        # Só adiciona "gradient" quando o SVG realmente possui
-        # um gradiente válido com pelo menos duas cores.
-        if gradiente:
-            item["gradient"] = gradiente
 
         expansions.append(item)
 

@@ -3,1267 +3,1644 @@
     {
       "name": "Advent Calendar",
       "image": "Nexus/Advent_Calendar.svg",
-      "color": "#6cc333"
+      "color": "#6cc333",
+      "flags": []
     },
     {
       "name": "Afro House",
       "image": "Nexus/Afro_House.svg",
-      "color": "#d16907"
+      "color": "#d16907",
+      "flags": []
     },
     {
       "name": "Afrobeats",
       "image": "Nexus/Afrobeats.svg",
-      "color": "#ac942a"
+      "color": "#ac942a",
+      "flags": []
     },
     {
       "name": "All About the Bass",
       "image": "Nexus/All_About_the_Bass.svg",
-      "color": "#8675aa"
+      "color": "#8675aa",
+      "flags": []
     },
     {
       "name": "Ambient Sci Fi",
       "image": "Nexus/Ambient_Sci_Fi.svg",
-      "color": "#4f2ae1"
+      "color": "#4f2ae1",
+      "flags": []
     },
     {
       "name": "Analog",
       "image": "Nexus/Analog.svg",
-      "color": "#db2b20"
+      "color": "#db2b20",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Analog 2",
       "image": "Nexus/Analog_2.svg",
-      "color": "#d2261f"
+      "color": "#d2261f",
+      "flags": []
     },
     {
       "name": "Analog 3",
       "image": "Nexus/Analog_3.svg",
-      "color": "#c51500"
+      "color": "#c51500",
+      "flags": []
     },
     {
       "name": "Analog DrumKits",
       "image": "Nexus/Analog_DrumKits.svg",
-      "color": "#16c5e0"
+      "color": "#16c5e0",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Apres Ski",
       "image": "Nexus/Apres_Ski.svg",
-      "color": "#de50b9"
+      "color": "#de50b9",
+      "flags": []
     },
     {
       "name": "Apres Ski 2",
       "image": "Nexus/Apres_Ski_2.svg",
-      "color": "#e02ea9"
+      "color": "#e02ea9",
+      "flags": []
     },
     {
       "name": "Artist Series 7 Skies",
       "image": "Nexus/Artist_Series_7_Skies.svg",
-      "color": "#837757"
+      "color": "#837757",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Artist Series 7 Skies 2",
       "image": "Nexus/Artist_Series_7_Skies_2.svg",
-      "color": "#837757"
+      "color": "#837757",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Artist Series Armin van Buuren",
       "image": "Nexus/Artist_Series_Armin_van_Buuren.svg",
-      "color": "#837757"
+      "color": "#837757",
+      "flags": []
     },
     {
       "name": "Artist Series Bodybangers",
       "image": "Nexus/Artist_Series_Bodybangers.svg",
-      "color": "#837757"
+      "color": "#837757",
+      "flags": []
     },
     {
       "name": "Artist Series Klaas",
       "image": "Nexus/Artist_Series_Klaas.svg",
-      "color": "#837757"
+      "color": "#837757",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Artist Series KSHMR",
       "image": "Nexus/Artist_Series_KSHMR.svg",
-      "color": "#837757"
+      "color": "#837757",
+      "flags": []
     },
     {
       "name": "Artist Series Steve Aoki",
       "image": "Nexus/Artist_Series_Steve_Aoki.svg",
-      "color": "#837757"
+      "color": "#837757",
+      "flags": []
     },
     {
       "name": "Artist Series Tiesto",
       "image": "Nexus/Artist_Series_Tiesto.svg",
-      "color": "#837757"
+      "color": "#837757",
+      "flags": []
     },
     {
       "name": "Bass",
       "image": "Nexus/Bass.svg",
-      "color": "#1c8c96"
+      "color": "#1c8c96",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Bass 2",
       "image": "Nexus/Bass_2.svg",
-      "color": "#016e76"
+      "color": "#016e76",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Bass House",
       "image": "Nexus/Bass_House.svg",
-      "color": "#d3214e"
+      "color": "#d3214e",
+      "flags": []
     },
     {
       "name": "Bigtone Signature 1",
       "image": "Nexus/Bigtone_Signature_1.svg",
-      "color": "#8032a6"
+      "color": "#8032a6",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Bigtone Signature 2",
       "image": "Nexus/Bigtone_Signature_2.svg",
-      "color": "#b034e1"
+      "color": "#b034e1",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Bigtone Signature 3",
       "image": "Nexus/Bigtone_Signature_3.svg",
-      "color": "#c136c0"
+      "color": "#c136c0",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Bigtone Signature 4",
       "image": "Nexus/Bigtone_Signature_4.svg",
-      "color": "#d532a4"
+      "color": "#d532a4",
+      "flags": []
     },
     {
       "name": "Breaks and Risers",
       "image": "Nexus/Breaks_and_Risers.svg",
-      "color": "#2cb2d2"
+      "color": "#2cb2d2",
+      "flags": []
     },
     {
       "name": "Chillout Lounge",
       "image": "Nexus/Chillout_Lounge.svg",
-      "color": "#943231"
+      "color": "#943231",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Chiptunes",
       "image": "Nexus/Chiptunes.svg",
-      "color": "#1ad8c9"
+      "color": "#1ad8c9",
+      "flags": []
     },
     {
       "name": "Christmas",
       "image": "Nexus/Christmas.svg",
-      "color": "#0d8667"
+      "color": "#0d8667",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2013",
       "image": "Nexus/Christmas_2013.svg",
-      "color": "#0b807b"
+      "color": "#0b807b",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2014",
       "image": "Nexus/Christmas_2014.svg",
-      "color": "#138f7f"
+      "color": "#138f7f",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2015",
       "image": "Nexus/Christmas_2015.svg",
-      "color": "#08a594"
+      "color": "#08a594",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2016",
       "image": "Nexus/Christmas_2016.svg",
-      "color": "#21b6a2"
+      "color": "#21b6a2",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2017",
       "image": "Nexus/Christmas_2017.svg",
-      "color": "#1ac291"
+      "color": "#1ac291",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2018",
       "image": "Nexus/Christmas_2018.svg",
-      "color": "#29c771"
+      "color": "#29c771",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2019",
       "image": "Nexus/Christmas_2019.svg",
-      "color": "#19bf62"
+      "color": "#19bf62",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2020",
       "image": "Nexus/Christmas_2020.svg",
-      "color": "#1eb36e"
+      "color": "#1eb36e",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2021",
       "image": "Nexus/Christmas_2021.svg",
-      "color": "#03b477"
+      "color": "#03b477",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2022",
       "image": "Nexus/Christmas_2022.svg",
-      "color": "#15a061"
+      "color": "#15a061",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2023",
       "image": "Nexus/Christmas_2023.svg",
-      "color": "#20a748"
+      "color": "#20a748",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2024",
       "image": "Nexus/Christmas_2024.svg",
-      "color": "#37a83f"
+      "color": "#37a83f",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2025",
       "image": "Nexus/Christmas_2025.svg",
-      "color": "#50a933"
+      "color": "#50a933",
+      "flags": ["FREE"]
     },
     {
       "name": "Christmas 2026",
       "image": "Nexus/Christmas_2026.svg",
-      "color": "#5c9d25"
+      "color": "#5c9d25",
+      "flags": ["FREE"]
     },
     {
       "name": "Classic Dance",
       "image": "Nexus/Classic_Dance.svg",
-      "color": "#2aaebc"
+      "color": "#2aaebc",
+      "flags": []
     },
     {
       "name": "Classic Trance",
       "image": "Nexus/Classic_Trance.svg",
-      "color": "#2eb374"
+      "color": "#2eb374",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Commercial Dance",
       "image": "Nexus/Commercial_Dance.svg",
-      "color": "#37cfc1"
+      "color": "#37cfc1",
+      "flags": []
     },
     {
       "name": "Commercial Electro",
       "image": "Nexus/Commercial_Electro.svg",
-      "color": "#dcb529"
+      "color": "#dcb529",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Commercial Electro 2",
       "image": "Nexus/Commercial_Electro_2.svg",
-      "color": "#e9b015"
+      "color": "#e9b015",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Crank",
       "image": "Nexus/Crank.svg",
-      "color": "#61ad1b"
+      "color": "#61ad1b",
+      "flags": []
     },
     {
       "name": "Crank 2",
       "image": "Nexus/Crank_2.svg",
-      "color": "#66c412"
+      "color": "#66c412",
+      "flags": []
     },
     {
       "name": "Cyberpunk",
       "image": "Nexus/Cyberpunk.svg",
-      "color": "#f7d100"
+      "color": "#f7d100",
+      "flags": []
     },
     {
       "name": "Cyberpunk 2",
       "image": "Nexus/Cyberpunk_2.svg",
-      "color": "#f7c811"
+      "color": "#f7c811",
+      "flags": []
     },
     {
       "name": "Dance 1",
       "image": "Nexus/Dance_1.svg",
-      "color": "#4966ea"
+      "color": "#4966ea",
+      "flags": []
     },
     {
       "name": "Dance 2",
       "image": "Nexus/Dance_2.svg",
-      "color": "#5c62de"
+      "color": "#5c62de",
+      "flags": []
     },
     {
       "name": "Dance 3",
       "image": "Nexus/Dance_3.svg",
-      "color": "#4382e4"
+      "color": "#4382e4",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Dance Drums",
       "image": "Nexus/Dance_Drums.svg",
-      "color": "#1faeb5"
+      "color": "#1faeb5",
+      "flags": []
     },
     {
       "name": "Dance Orchestra",
       "image": "Nexus/Dance_Orchestra.svg",
-      "color": "#3647a9"
+      "color": "#3647a9",
+      "flags": []
     },
     {
       "name": "Dark Planet",
       "image": "Nexus/Dark_Planet.svg",
-      "color": "#173fd1"
+      "color": "#173fd1",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Deep House",
       "image": "Nexus/Deep_House.svg",
-      "color": "#a7251e"
+      "color": "#a7251e",
+      "flags": []
     },
     {
       "name": "Deep House 2",
       "image": "Nexus/Deep_House_2.svg",
-      "color": "#d7241a"
+      "color": "#d7241a",
+      "flags": []
     },
     {
       "name": "Deep House Progressions",
       "image": "Nexus/Deep_House_Progressions.svg",
-      "color": "#ac1828"
+      "color": "#ac1828",
+      "flags": []
     },
     {
       "name": "Digital Legends",
       "image": "Nexus/Digital_Legends.svg",
-      "color": "#ed7618"
+      "color": "#ed7618",
+      "flags": []
     },
     {
       "name": "Drill",
       "image": "Nexus/Drill.svg",
-      "color": "#f0bf40"
+      "color": "#f0bf40",
+      "flags": []
     },
     {
       "name": "Drum and Bass",
       "image": "Nexus/Drum_and_Bass.svg",
-      "color": "#6aab10"
+      "color": "#6aab10",
+      "flags": []
     },
     {
       "name": "Drum and Bass 2",
       "image": "Nexus/Drum_and_Bass_2.svg",
-      "color": "#5fa726"
+      "color": "#5fa726",
+      "flags": []
     },
     {
       "name": "Dubstep Electro",
       "image": "Nexus/Dubstep_Electro.svg",
-      "color": "#efdb3c"
+      "color": "#efdb3c",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Dubstep Electro 2",
       "image": "Nexus/Dubstep_Electro_2.svg",
-      "color": "#e8cc2b"
+      "color": "#e8cc2b",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Dubstep Electro 3",
       "image": "Nexus/Dubstep_Electro_3.svg",
-      "color": "#f5c825"
+      "color": "#f5c825",
+      "flags": []
     },
     {
       "name": "Dubstep Electro 4",
       "image": "Nexus/Dubstep_Electro_4.svg",
-      "color": "#ffc825"
+      "color": "#ffc825",
+      "flags": []
     },
     {
       "name": "EDM",
       "image": "Nexus/EDM.svg",
-      "color": "#0b87bd"
+      "color": "#0b87bd",
+      "flags": []
     },
     {
       "name": "EDM 10",
       "image": "Nexus/EDM_10.svg",
-      "color": "#b853dc"
+      "color": "#b853dc",
+      "flags": []
     },
     {
       "name": "EDM 11",
       "image": "Nexus/EDM_11.svg",
-      "color": "#9665f0"
+      "color": "#9665f0",
+      "flags": []
     },
     {
       "name": "EDM 2",
       "image": "Nexus/EDM_2.svg",
-      "color": "#2180cf"
+      "color": "#2180cf",
+      "flags": []
     },
     {
       "name": "EDM 3",
       "image": "Nexus/EDM_3.svg",
-      "color": "#3978c8"
+      "color": "#3978c8",
+      "flags": []
     },
     {
       "name": "EDM 4",
       "image": "Nexus/EDM_4.svg",
-      "color": "#3f69bd"
+      "color": "#3f69bd",
+      "flags": []
     },
     {
       "name": "EDM 5",
       "image": "Nexus/EDM_5.svg",
-      "color": "#4464c4"
+      "color": "#4464c4",
+      "flags": []
     },
     {
       "name": "EDM 6",
       "image": "Nexus/EDM_6.svg",
-      "color": "#4d59c1"
+      "color": "#4d59c1",
+      "flags": []
     },
     {
       "name": "EDM 7",
       "image": "Nexus/EDM_7.svg",
-      "color": "#624fc1"
+      "color": "#624fc1",
+      "flags": []
     },
     {
       "name": "EDM 8",
       "image": "Nexus/EDM_8.svg",
-      "color": "#7e49c1"
+      "color": "#7e49c1",
+      "flags": []
     },
     {
       "name": "EDM 9",
       "image": "Nexus/EDM_9.svg",
-      "color": "#9a51c7"
+      "color": "#9a51c7",
+      "flags": []
     },
     {
       "name": "EDM Leads",
       "image": "Nexus/EDM_Leads.svg",
-      "color": "#28adcf"
+      "color": "#28adcf",
+      "flags": []
     },
     {
       "name": "EDM Voices",
       "image": "Nexus/EDM_Voices.svg",
-      "color": "#0c6fc1"
+      "color": "#0c6fc1",
+      "flags": []
     },
     {
       "name": "EDM Voices 2",
       "image": "Nexus/EDM_Voices_2.svg",
-      "color": "#0072c8"
+      "color": "#0072c8",
+      "flags": []
     },
     {
       "name": "Electrohouse Leads",
       "image": "Nexus/Electrohouse_Leads.svg",
-      "color": "#ec630f"
+      "color": "#ec630f",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Electrohouse Leads 2",
       "image": "Nexus/Electrohouse_Leads_2.svg",
-      "color": "#ff800f"
+      "color": "#ff800f",
+      "flags": []
     },
     {
       "name": "Factory content",
       "image": "Nexus/Factory_content.svg",
-      "color": "#3958e0"
+      "color": "#3958e0",
+      "flags": []
     },
     {
       "name": "Factory Content R",
       "image": "Rippler/Factory_Content_R.svg",
-      "color": "#5fa726"
+      "color": "#5fa726",
+      "flags": []
     },
     {
       "name": "Factory Content V",
       "image": "Vanguard/Factory_Content_V.svg",
-      "color": "#5fa726"
+      "color": "#5fa726",
+      "flags": []
     },
     {
       "name": "Feel Good House",
       "image": "Nexus/Feel_Good_House.svg",
-      "color": "#c84860"
+      "color": "#c84860",
+      "flags": []
     },
     {
       "name": "Festival EDM",
       "image": "Nexus/Festival_EDM.svg",
-      "color": "#3888b5"
+      "color": "#3888b5",
+      "flags": []
     },
     {
       "name": "Festival EDM 2",
       "image": "Nexus/Festival_EDM_2.svg",
-      "color": "#258aca"
+      "color": "#258aca",
+      "flags": []
     },
     {
       "name": "FM",
       "image": "Nexus/FM.svg",
-      "color": "#efaa1e"
+      "color": "#efaa1e",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "FM 2",
       "image": "Nexus/FM_2.svg",
-      "color": "#ee8f16"
+      "color": "#ee8f16",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Freaky Machines",
       "image": "Nexus/Freaky_Machines.svg",
-      "color": "#24ab46"
+      "color": "#24ab46",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "French House",
       "image": "Nexus/French_House.svg",
-      "color": "#992f90"
+      "color": "#992f90",
+      "flags": [
+        "NEW"
+      ]
     },
     {
       "name": "Future Arps",
       "image": "Nexus/Future_Arps.svg",
-      "color": "#127dea"
+      "color": "#127dea",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Future Arps 2",
       "image": "Nexus/Future_Arps_2.svg",
-      "color": "#1691e8"
+      "color": "#1691e8",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Future Arps 3",
       "image": "Nexus/Future_Arps_3.svg",
-      "color": "#14a6e9"
+      "color": "#14a6e9",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Future Arps 4",
       "image": "Nexus/Future_Arps_4.svg",
-      "color": "#2ac2ea"
+      "color": "#2ac2ea",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Future Bass",
       "image": "Nexus/Future_Bass.svg",
-      "color": "#e6234a"
+      "color": "#e6234a",
+      "flags": []
     },
     {
       "name": "Future Bass 2",
       "image": "Nexus/Future_Bass_2.svg",
-      "color": "#ec434f"
+      "color": "#ec434f",
+      "flags": []
     },
     {
       "name": "Future Chill",
       "image": "Nexus/Future_Chill.svg",
-      "color": "#d22267"
+      "color": "#d22267",
+      "flags": []
     },
     {
       "name": "Future EDM",
       "image": "Nexus/Future_EDM.svg",
-      "color": "#216dff"
+      "color": "#216dff",
+      "flags": []
     },
     {
       "name": "Future House",
       "image": "Nexus/Future_House.svg",
-      "color": "#9b1d3e"
+      "color": "#9b1d3e",
+      "flags": []
     },
     {
       "name": "Future House 2",
       "image": "Nexus/Future_House_2.svg",
-      "color": "#c22451"
+      "color": "#c22451",
+      "flags": []
     },
     {
       "name": "Future Pop Voices",
       "image": "Nexus/Future_Pop_Voices.svg",
-      "color": "#253db6"
+      "color": "#253db6",
+      "flags": []
     },
     {
       "name": "Future Rave",
       "image": "Nexus/Future_Rave.svg",
-      "color": "#8a39cd"
+      "color": "#8a39cd",
+      "flags": []
     },
     {
       "name": "FX",
       "image": "Nexus/FX.svg",
-      "color": "#1588a7"
+      "color": "#1588a7",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Guitars",
       "image": "Nexus/Guitars.svg",
-      "color": "#ff9916"
+      "color": "#ff9916",
+      "flags": []
     },
     {
       "name": "Guitars 2",
       "image": "Nexus/Guitars_2.svg",
-      "color": "#ff8200"
+      "color": "#ff8200",
+      "flags": []
     },
     {
       "name": "Halloween",
       "image": "Nexus/Halloween.svg",
-      "color": "#e37115"
+      "color": "#e37115",
+      "flags": []
     },
     {
       "name": "HandsUp Electro Bass",
       "image": "Nexus/HandsUp_Electro_Bass.svg",
-      "color": "#199499"
+      "color": "#199499",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "HandsUp Electro Bass 2",
       "image": "Nexus/HandsUp_Electro_Bass_2.svg",
-      "color": "#18b6a7"
+      "color": "#18b6a7",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "HandsUp Electro Bass 3",
       "image": "Nexus/HandsUp_Electro_Bass_3.svg",
-      "color": "#2abec3"
+      "color": "#2abec3",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "HandsUp Leads 1",
       "image": "Nexus/HandsUp_Leads_1.svg",
-      "color": "#25a794"
+      "color": "#25a794",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Happy Hardcore",
       "image": "Nexus/Happy_Hardcore.svg",
-      "color": "#ead200"
+      "color": "#ead200",
+      "flags": []
     },
     {
       "name": "Hard Techno",
       "image": "Nexus/Hard_Techno.svg",
-      "color": "#6f72e6"
+      "color": "#6f72e6",
+      "flags": []
     },
     {
       "name": "Hardcore Italia",
       "image": "Nexus/Hardcore_Italia.svg",
-      "color": "#f43d4f"
+      "color": "#f43d4f",
+      "flags": []
     },
     {
       "name": "Hardstyle",
       "image": "Nexus/Hardstyle.svg",
-      "color": "#b2df16"
+      "color": "#b2df16",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Hardstyle 2",
       "image": "Nexus/Hardstyle_2.svg",
-      "color": "#a2e212"
+      "color": "#a2e212",
+      "flags": []
     },
     {
       "name": "Hardstyle 3",
       "image": "Nexus/Hardstyle_3.svg",
-      "color": "#7ed912"
+      "color": "#7ed912",
+      "flags": []
     },
     {
       "name": "Hip Hop",
       "image": "Nexus/Hip_Hop.svg",
-      "color": "#bd9617"
+      "color": "#bd9617",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Hip Hop 2",
       "image": "Nexus/Hip_Hop_2.svg",
-      "color": "#e8ad16"
+      "color": "#e8ad16",
+      "flags": []
     },
     {
       "name": "Hip Hop 3",
       "image": "Nexus/Hip_Hop_3.svg",
-      "color": "#e6bc28"
+      "color": "#e6bc28",
+      "flags": []
     },
     {
       "name": "Hip Hop 4",
       "image": "Nexus/Hip_Hop_4.svg",
-      "color": "#e6ce36"
+      "color": "#e6ce36",
+      "flags": []
     },
     {
       "name": "Hollywood",
       "image": "Nexus/Hollywood.svg",
-      "color": "#214c93"
+      "color": "#214c93",
+      "flags": []
     },
     {
       "name": "Hollywood 2 Bundle",
       "image": "Nexus/Hollywood_2_Bundle.svg",
-      "color": "#982d28"
+      "color": "#982d28",
+      "flags": []
     },
     {
       "name": "Hollywood 2 Core Library",
       "image": "Nexus/Hollywood_2_Core_Library.svg",
-      "color": "#982d28"
+      "color": "#982d28",
+      "flags": []
     },
     {
       "name": "Hollywood 2 Drums FX",
       "image": "Nexus/Hollywood_2_Drums_FX.svg",
-      "color": "#982d28"
+      "color": "#982d28",
+      "flags": []
     },
     {
       "name": "Hollywood 2 Strings",
       "image": "Nexus/Hollywood_2_Strings.svg",
-      "color": "#982d28"
+      "color": "#982d28",
+      "flags": []
     },
     {
       "name": "Hollywood 2 Winds Brass",
       "image": "Nexus/Hollywood_2_Winds_Brass.svg",
-      "color": "#982d28"
+      "color": "#982d28",
+      "flags": []
     },
     {
       "name": "Hollywood 3 Bundle",
       "image": "Nexus/Hollywood_3_Bundle.svg",
-      "color": "#437a8a"
+      "color": "#437a8a",
+      "flags": []
     },
     {
       "name": "Hollywood 3 Drumkits Percussions",
       "image": "Nexus/Hollywood_3_Drumkits_Percussions.svg",
-      "color": "#437a8a"
+      "color": "#437a8a",
+      "flags": []
     },
     {
       "name": "Hollywood 3 Epic Collection",
       "image": "Nexus/Hollywood_3_Epic_Collection.svg",
-      "color": "#437a8a"
+      "color": "#437a8a",
+      "flags": []
     },
     {
       "name": "Hollywood 3 Ethno",
       "image": "Nexus/Hollywood_3_Ethno.svg",
-      "color": "#437a8a"
+      "color": "#437a8a",
+      "flags": []
     },
     {
       "name": "Hollywood 3 Guitars",
       "image": "Nexus/Hollywood_3_Guitars.svg",
-      "color": "#437a8a"
+      "color": "#437a8a",
+      "flags": []
     },
     {
       "name": "Hollywood Action Trailer",
       "image": "Nexus/Hollywood_Action_Trailer.svg",
-      "color": "#437a8a"
+      "color": "#437a8a",
+      "flags": []
     },
     {
       "name": "Hollywood Percussion Loops",
       "image": "Nexus/Hollywood_Percussion_Loops.svg",
-      "color": "#2871a2"
+      "color": "#2871a2",
+      "flags": []
     },
     {
       "name": "Hollywood Percussion Loops 2",
       "image": "Nexus/Hollywood_Percussion_Loops_2.svg",
-      "color": "#177bc9"
+      "color": "#177bc9",
+      "flags": []
     },
     {
       "name": "Hollywood Piano",
       "image": "Nexus/Hollywood_Piano.svg",
-      "color": "#452a71"
+      "color": "#452a71",
+      "flags": []
     },
     {
       "name": "Hollywood Sound FX",
       "image": "Nexus/Hollywood_Sound_FX.svg",
-      "color": "#42827e"
+      "color": "#42827e",
+      "flags": []
     },
     {
       "name": "Hollywood Synth Edition",
       "image": "Nexus/Hollywood_Synth_Edition.svg",
-      "color": "#972c28"
+      "color": "#972c28",
+      "flags": []
     },
     {
       "name": "Hollywood Synth Edition 2",
       "image": "Nexus/Hollywood_Synth_Edition_2.svg",
-      "color": "#ac2333"
+      "color": "#ac2333",
+      "flags": []
     },
     {
       "name": "Hollywood Synth Edition 3",
       "image": "Nexus/Hollywood_Synth_Edition_3.svg",
-      "color": "#bf1d2b"
+      "color": "#bf1d2b",
+      "flags": []
     },
     {
       "name": "House Vol 1",
       "image": "Nexus/House_Vol_1.svg",
-      "color": "#c02a20"
+      "color": "#c02a20",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "House Vol 2",
       "image": "Nexus/House_Vol_2.svg",
-      "color": "#c03720"
+      "color": "#c03720",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "House Vol 3",
       "image": "Nexus/House_Vol_3.svg",
-      "color": "#da531a"
+      "color": "#da531a",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Hyper Techno",
       "image": "Nexus/Hyper_Techno.svg",
-      "color": "#ac27bc"
+      "color": "#ac27bc",
+      "flags": []
     },
     {
       "name": "Hyperpop",
       "image": "Nexus/Hyperpop.svg",
-      "color": "#f42190"
+      "color": "#f42190",
+      "flags": []
     },
     {
       "name": "Hypnotic Techno",
       "image": "Nexus/Hypnotic_Techno.svg",
-      "color": "#7f41c0"
+      "color": "#7f41c0",
+      "flags": []
     },
     {
       "name": "Italo Disco",
       "image": "Nexus/Italo_Disco.svg",
-      "color": "#ee3d5f"
+      "color": "#ee3d5f",
+      "flags": []
     },
     {
       "name": "Jungle",
       "image": "Nexus/Jungle.svg",
-      "color": "#386836"
+      "color": "#386836",
+      "flags": []
     },
     {
       "name": "K Pop",
       "image": "Nexus/K_Pop.svg",
-      "color": "#8d49f8"
+      "color": "#8d49f8",
+      "flags": []
     },
     {
       "name": "Kamui",
       "image": "Nexus/Kamui.svg",
-      "color": "#ff4439"
+      "color": "#ff4439",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Kamui 2",
       "image": "Nexus/Kamui_2.svg",
-      "color": "#f85c4f"
+      "color": "#f85c4f",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Latin House",
       "image": "Nexus/Latin_House.svg",
-      "color": "#b62b1d"
+      "color": "#b62b1d",
+      "flags": []
     },
     {
       "name": "Lo fi",
       "image": "Nexus/Lo_fi.svg",
-      "color": "#bc524a"
+      "color": "#bc524a",
+      "flags": []
     },
     {
       "name": "Lo fi 2",
       "image": "Nexus/Lo_fi_2.svg",
-      "color": "#d4553c"
+      "color": "#d4553c",
+      "flags": []
     },
     {
       "name": "Melodic Techno",
       "image": "Nexus/Melodic_Techno.svg",
-      "color": "#9a25af"
+      "color": "#9a25af",
+      "flags": []
     },
     {
       "name": "Melodic Techno 2",
       "image": "Nexus/Melodic_Techno_2.svg",
-      "color": "#9929d4"
+      "color": "#9929d4",
+      "flags": []
     },
     {
       "name": "Melodic Techno 3",
       "image": "Nexus/Melodic_Techno_3.svg",
-      "color": "#a431db"
+      "color": "#a431db",
+      "flags": []
     },
     {
       "name": "Melodic Techno 4",
       "image": "Nexus/Melodic_Techno_4.svg",
-      "color": "#aa3bfb"
+      "color": "#aa3bfb",
+      "flags": []
     },
     {
       "name": "Millennium Pop",
       "image": "Nexus/Millennium_Pop.svg",
-      "color": "#f88a1a"
+      "color": "#f88a1a",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Millennium Pop 2",
       "image": "Nexus/Millennium_Pop_2.svg",
-      "color": "#f07512"
+      "color": "#f07512",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Minimal House",
       "image": "Nexus/Minimal_House.svg",
-      "color": "#aa0e04"
+      "color": "#aa0e04",
+      "flags": []
     },
     {
       "name": "Minimal House 2",
       "image": "Nexus/Minimal_House_2.svg",
-      "color": "#a02800"
+      "color": "#a02800",
+      "flags": []
     },
     {
       "name": "Moombahton",
       "image": "Nexus/Moombahton.svg",
-      "color": "#d12d11"
+      "color": "#d12d11",
+      "flags": []
     },
     {
       "name": "Moombahton 2",
       "image": "Nexus/Moombahton_2.svg",
-      "color": "#b71500"
+      "color": "#b71500",
+      "flags": []
     },
     {
       "name": "More Cowbell",
       "image": "Nexus/More_Cowbell.svg",
-      "color": "#dd930b"
+      "color": "#dd930b",
+      "flags": []
     },
     {
       "name": "N5 Factory Presets",
       "image": "Nexus/N5_Factory_Presets.svg",
-      "color": "#a23299"
+      "color": "#a23299",
+      "flags": []
     },
     {
       "name": "NuDisco",
       "image": "Nexus/NuDisco.svg",
-      "color": "#e71f69"
+      "color": "#e71f69",
+      "flags": []
     },
     {
       "name": "NuElectro",
       "image": "Nexus/NuElectro.svg",
-      "color": "#224de7"
+      "color": "#224de7",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Omicron",
       "image": "Nexus/Omicron.svg",
-      "color": "#b218e2"
+      "color": "#b218e2",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Omicron 2",
       "image": "Nexus/Omicron_2.svg",
-      "color": "#c43af2"
+      "color": "#c43af2",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Omicron 3",
       "image": "Nexus/Omicron_3.svg",
-      "color": "#d064ff"
+      "color": "#d064ff",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Perpetual Motion",
       "image": "Nexus/Perpetual_Motion.svg",
-      "color": "#402fef"
+      "color": "#402fef",
+      "flags": []
     },
     {
       "name": "Phonk",
       "image": "Nexus/Phonk.svg",
-      "color": "#2b0840"
+      "color": "#2b0840",
+      "flags": []
     },
     {
       "name": "Pop",
       "image": "Nexus/Pop.svg",
-      "color": "#6e50ff"
+      "color": "#6e50ff",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Prog Tech House",
       "image": "Nexus/Prog_Tech_House.svg",
-      "color": "#c56309"
+      "color": "#c56309",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Prog Tech House 2",
       "image": "Nexus/Prog_Tech_House_2.svg",
-      "color": "#cd5417"
+      "color": "#cd5417",
+      "flags": []
     },
     {
       "name": "Progressive House",
       "image": "Nexus/Progressive_House.svg",
-      "color": "#da4255"
+      "color": "#da4255",
+      "flags": []
     },
     {
       "name": "Progressive Trance",
       "image": "Nexus/Progressive_Trance.svg",
-      "color": "#424aee"
+      "color": "#424aee",
+      "flags": []
     },
     {
       "name": "Psytrance",
       "image": "Nexus/Psytrance.svg",
-      "color": "#9ca90c"
+      "color": "#9ca90c",
+      "flags": []
     },
     {
       "name": "Psytrance 2",
       "image": "Nexus/Psytrance_2.svg",
-      "color": "#7dae00"
+      "color": "#7dae00",
+      "flags": []
     },
     {
       "name": "Rauschwerk",
       "image": "Nexus/Rauschwerk.svg",
-      "color": "#1f48de"
+      "color": "#1f48de",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Rauschwerk 2",
       "image": "Nexus/Rauschwerk_2.svg",
-      "color": "#453fde"
+      "color": "#453fde",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Rauschwerk 3",
       "image": "Nexus/Rauschwerk_3.svg",
-      "color": "#7b45f8"
+      "color": "#7b45f8",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Reggaeton",
       "image": "Nexus/Reggaeton.svg",
-      "color": "#dfaf22"
+      "color": "#dfaf22",
+      "flags": []
     },
     {
       "name": "Reggaeton 2",
       "image": "Nexus/Reggaeton_2.svg",
-      "color": "#f9b228"
+      "color": "#f9b228",
+      "flags": []
     },
     {
       "name": "Reggaeton 3",
       "image": "Nexus/Reggaeton_3.svg",
-      "color": "#ffa328"
+      "color": "#ffa328",
+      "flags": []
     },
     {
       "name": "Reverb Impulse Response",
       "image": "Nexus/Reverb_Impulse_Response.svg",
-      "color": "#9213b7"
+      "color": "#9213b7",
+      "flags": []
     },
     {
       "name": "ROM Extension",
       "image": "Nexus/ROM_Extension.svg",
-      "color": "#1d4efd"
+      "color": "#1d4efd",
+      "flags": []
     },
     {
       "name": "ROM Extension 2",
       "image": "Nexus/ROM_Extension_2.svg",
-      "color": "#3b48fd"
+      "color": "#3b48fd",
+      "flags": []
     },
     {
       "name": "ROM Extension 3",
       "image": "Nexus/ROM_Extension_3.svg",
-      "color": "#683bfd"
+      "color": "#683bfd",
+      "flags": []
     },
     {
       "name": "ROM Extension 4",
       "image": "Nexus/ROM_Extension_4.svg",
-      "color": "#8440d9"
+      "color": "#8440d9",
+      "flags": []
     },
     {
       "name": "SID",
       "image": "Nexus/SID.svg",
-      "color": "#eadf1e"
+      "color": "#eadf1e",
+      "flags": []
     },
     {
       "name": "Slap House",
       "image": "Nexus/Slap_House.svg",
-      "color": "#ea284d"
+      "color": "#ea284d",
+      "flags": []
     },
     {
       "name": "Slap House 2",
       "image": "Nexus/Slap_House_2.svg",
-      "color": "#e02254"
+      "color": "#e02254",
+      "flags": []
     },
     {
       "name": "Sound of the 70s",
       "image": "Nexus/Sound_of_the_70s.svg",
-      "color": "#cf5f00"
+      "color": "#cf5f00",
+      "flags": []
     },
     {
       "name": "Sound of the 80s",
       "image": "Nexus/Sound_of_the_80s.svg",
-      "color": "#c047e9"
+      "color": "#c047e9",
+      "flags": []
     },
     {
       "name": "Sound of the 90s",
       "image": "Nexus/Sound_of_the_90s.svg",
-      "color": "#c68108"
+      "color": "#c68108",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Sound of the 90s Vol 2",
       "image": "Nexus/Sound_of_the_90s_Vol_2.svg",
-      "color": "#c67100"
+      "color": "#c67100",
+      "flags": []
     },
     {
       "name": "Sounds of the Summer",
       "image": "Nexus/Sounds_of_the_Summer.svg",
-      "color": "#fb7f24"
+      "color": "#fb7f24",
+      "flags": []
     },
     {
       "name": "Sounds of the Summer 2",
       "image": "Nexus/Sounds_of_the_Summer_2.svg",
-      "color": "#ff9f20"
+      "color": "#ff9f20",
+      "flags": []
     },
     {
       "name": "Sounds of the Summer 3",
       "image": "Nexus/Sounds_of_the_Summer_3.svg",
-      "color": "#ffb221"
+      "color": "#ffb221",
+      "flags": []
     },
     {
       "name": "Spinning House",
       "image": "Nexus/Spinning_House.svg",
-      "color": "#e54640"
+      "color": "#e54640",
+      "flags": []
     },
     {
       "name": "Spinning House 2",
       "image": "Nexus/Spinning_House_2.svg",
-      "color": "#d31d21"
+      "color": "#d31d21",
+      "flags": []
     },
     {
       "name": "Store n Forward",
       "image": "Nexus/Store_n_Forward.svg",
-      "color": "#2b86ec"
+      "color": "#2b86ec",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Stratosphere",
       "image": "Nexus/Stratosphere.svg",
-      "color": "#1438c6"
+      "color": "#1438c6",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Stratosphere 2",
       "image": "Nexus/Stratosphere_2.svg",
-      "color": "#005abb"
+      "color": "#005abb",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Stratosphere 3",
       "image": "Nexus/Stratosphere_3.svg",
-      "color": "#02649d"
+      "color": "#02649d",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Studio Production 1",
       "image": "Nexus/Studio_Production_1.svg",
-      "color": "#3d3f65"
+      "color": "#3d3f65",
+      "flags": []
     },
     {
       "name": "Studio Production 2",
       "image": "Nexus/Studio_Production_2.svg",
-      "color": "#374473"
+      "color": "#374473",
+      "flags": []
     },
     {
       "name": "Studio Production 3 Guitars",
       "image": "Nexus/Studio_Production_3_Guitars.svg",
-      "color": "#3e5581"
+      "color": "#3e5581",
+      "flags": []
     },
     {
       "name": "Summer Deep Chill",
       "image": "Nexus/Summer_Deep_Chill.svg",
-      "color": "#ab517d"
+      "color": "#ab517d",
+      "flags": []
     },
     {
       "name": "Swedish House",
       "image": "Nexus/Swedish_House.svg",
-      "color": "#cf2048"
+      "color": "#cf2048",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Swedish House 2",
       "image": "Nexus/Swedish_House_2.svg",
-      "color": "#f1406b"
+      "color": "#f1406b",
+      "flags": []
     },
     {
       "name": "Synthetic Textures",
       "image": "Nexus/Synthetic_Textures.svg",
-      "color": "#922291"
+      "color": "#922291",
+      "flags": []
     },
     {
       "name": "Synthwave",
       "image": "Nexus/Synthwave.svg",
-      "color": "#c41b82"
+      "color": "#c41b82",
+      "flags": []
     },
     {
       "name": "Synthwave 2",
       "image": "Nexus/Synthwave_2.svg",
-      "color": "#ba07a8"
+      "color": "#ba07a8",
+      "flags": []
     },
     {
       "name": "Tech Essentials",
       "image": "Nexus/Tech_Essentials.svg",
-      "color": "#faa122"
+      "color": "#faa122",
+      "flags": []
     },
     {
       "name": "Tech House",
       "image": "Nexus/Tech_House.svg",
-      "color": "#df287f"
+      "color": "#df287f",
+      "flags": []
     },
     {
       "name": "Techno",
       "image": "Nexus/Techno.svg",
-      "color": "#943da2"
+      "color": "#943da2",
+      "flags": []
     },
     {
       "name": "Techno 2",
       "image": "Nexus/Techno_2.svg",
-      "color": "#7332d5"
+      "color": "#7332d5",
+      "flags": []
     },
     {
       "name": "Total Piano",
       "image": "Nexus/Total_Piano.svg",
-      "color": "#835245"
+      "color": "#835245",
+      "flags": []
     },
     {
       "name": "Trance Anthems",
       "image": "Nexus/Trance_Anthems.svg",
-      "color": "#1d94dd"
+      "color": "#1d94dd",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Trance Anthems 2",
       "image": "Nexus/Trance_Anthems_2.svg",
-      "color": "#2fb2f8"
+      "color": "#2fb2f8",
+      "flags": []
     },
     {
       "name": "Trance Elements",
       "image": "Nexus/Trance_Elements.svg",
-      "color": "#2ecaff"
+      "color": "#2ecaff",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Trance Leads",
       "image": "Nexus/Trance_Leads.svg",
-      "color": "#3ece5d"
+      "color": "#3ece5d",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Trance Leads 2",
       "image": "Nexus/Trance_Leads_2.svg",
-      "color": "#15ac30"
+      "color": "#15ac30",
+      "flags": []
     },
     {
       "name": "Trance Universe",
       "image": "Nexus/Trance_Universe.svg",
-      "color": "#7a5df3"
+      "color": "#7a5df3",
+      "flags": []
     },
     {
       "name": "Trance Voices",
       "image": "Nexus/Trance_Voices.svg",
-      "color": "#22a5f1"
+      "color": "#22a5f1",
+      "flags": []
     },
     {
       "name": "Trap",
       "image": "Nexus/Trap.svg",
-      "color": "#bb8e0f"
+      "color": "#bb8e0f",
+      "flags": [
+        "LEGACY"
+      ]
     },
     {
       "name": "Trap 2",
       "image": "Nexus/Trap_2.svg",
-      "color": "#d28924"
+      "color": "#d28924",
+      "flags": []
     },
     {
       "name": "Trap 3",
       "image": "Nexus/Trap_3.svg",
-      "color": "#e47b1e"
+      "color": "#e47b1e",
+      "flags": []
     },
     {
       "name": "Trap 4",
       "image": "Nexus/Trap_4.svg",
-      "color": "#e56025"
+      "color": "#e56025",
+      "flags": []
     },
     {
       "name": "Tropical House",
       "image": "Nexus/Tropical_House.svg",
-      "color": "#ff7f34"
+      "color": "#ff7f34",
+      "flags": []
     },
     {
       "name": "Tropical House 2",
       "image": "Nexus/Tropical_House_2.svg",
-      "color": "#ff642a"
+      "color": "#ff642a",
+      "flags": []
     },
     {
       "name": "Tropical House 3",
       "image": "Nexus/Tropical_House_3.svg",
-      "color": "#ff5440"
+      "color": "#ff5440",
+      "flags": []
     },
     {
       "name": "Tropical House 4",
       "image": "Nexus/Tropical_House_4.svg",
-      "color": "#ff3c30"
+      "color": "#ff3c30",
+      "flags": []
     },
     {
       "name": "Tropical House 5",
       "image": "Nexus/Tropical_House_5.svg",
-      "color": "#ff4758"
+      "color": "#ff4758",
+      "flags": []
     },
     {
       "name": "TV Movie Game",
       "image": "Nexus/TV_Movie_Game.svg",
-      "color": "#a56a12"
+      "color": "#a56a12",
+      "flags": []
     },
     {
       "name": "Twerk",
       "image": "Nexus/Twerk.svg",
-      "color": "#ff601a"
+      "color": "#ff601a",
+      "flags": []
     },
     {
       "name": "UK Garage",
       "image": "Nexus/UK_Garage.svg",
-      "color": "#793b79"
+      "color": "#793b79",
+      "flags": [
+        "NEW"
+      ]
     },
     {
       "name": "UK House",
       "image": "Nexus/UK_House.svg",
-      "color": "#721f60"
+      "color": "#721f60",
+      "flags": []
     },
     {
       "name": "Vaporwave",
       "image": "Nexus/Vaporwave.svg",
-      "color": "#de3a56"
+      "color": "#de3a56",
+      "flags": []
     },
     {
       "name": "Vintage Drumkits",
       "image": "Nexus/Vintage_Drumkits.svg",
-      "color": "#3ac3d6"
+      "color": "#3ac3d6",
+      "flags": []
     },
     {
       "name": "Vintage Synths",
       "image": "Nexus/Vintage_Synths.svg",
-      "color": "#ffa524"
+      "color": "#ffa524",
+      "flags": []
     },
     {
       "name": "Vintage Synths 2",
       "image": "Nexus/Vintage_Synths_2.svg",
-      "color": "#ff7f35"
+      "color": "#ff7f35",
+      "flags": []
     },
     {
       "name": "Vintage Synths 3",
       "image": "Nexus/Vintage_Synths_3.svg",
-      "color": "#ff7a10"
+      "color": "#ff7a10",
+      "flags": []
     },
     {
       "name": "Vintage Synths 4",
       "image": "Nexus/Vintage_Synths_4.svg",
-      "color": "#ff6d2d"
+      "color": "#ff6d2d",
+      "flags": []
     },
     {
       "name": "Vocoder",
       "image": "Nexus/Vocoder.svg",
-      "color": "#4679da"
+      "color": "#4679da",
+      "flags": [
+        "LEGACY"
+      ]
     }
   ],
   "logos": [

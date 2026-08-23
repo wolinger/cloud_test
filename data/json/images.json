@@ -523,18 +523,6 @@
       "flags": []
     },
     {
-      "name": "Factory Content R",
-      "image": "Rippler/Factory_content.svg",
-      "color": "#5fa726",
-      "flags": []
-    },
-    {
-      "name": "Factory Content V2",
-      "image": "Vanguard/Factory_content.svg",
-      "color": "#5fa726",
-      "flags": []
-    },
-    {
       "name": "Feel Good House",
       "image": "Nexus/Feel_Good_House.svg",
       "color": "#c84860",
@@ -1520,6 +1508,120 @@
       "name": "Vocoder",
       "image": "Nexus/Vocoder.svg",
       "color": "#4679da",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Factory Content R",
+      "image": "Rippler/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Artificial Pleasures",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Bigtone Electronic Garden",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Bigtone Signature",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Bigtone Silicon Frontiers",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "DHS Signature",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Factory Content V2",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Sounds of Revolution",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Sounds of Revolution 2",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Sounds of Revolution 3",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Synthation",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Toxicity",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Vengeance Part 1",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Vengeance Part 2",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Vengeance Reloaded Vol. 1",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Vengeance Reloaded Vol. 2",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Vengeance Reloaded Vol. 3",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Xenox Signature",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
+      "flags": ["Legacy"]
+    },
+    {
+      "name": "Xenox Signature 2",
+      "image": "Vanguard/Factory_content.svg",
+      "color": "#5fa726",
       "flags": ["Legacy"]
     }
   ],

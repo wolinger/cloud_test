@@ -34,9 +34,7 @@
       "name": "Analog",
       "image": "Nexus/Analog.svg",
       "color": "#db2b20",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Analog 2",
@@ -54,9 +52,7 @@
       "name": "Analog DrumKits",
       "image": "Nexus/Analog_DrumKits.svg",
       "color": "#16c5e0",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Apres Ski",
@@ -74,17 +70,13 @@
       "name": "Artist Series 7 Skies",
       "image": "Nexus/Artist_Series_7_Skies.svg",
       "color": "#837757",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Artist Series 7 Skies 2",
       "image": "Nexus/Artist_Series_7_Skies_2.svg",
       "color": "#837757",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Artist Series Armin van Buuren",
@@ -102,9 +94,7 @@
       "name": "Artist Series Klaas",
       "image": "Nexus/Artist_Series_Klaas.svg",
       "color": "#837757",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Artist Series KSHMR",
@@ -128,17 +118,13 @@
       "name": "Bass",
       "image": "Nexus/Bass.svg",
       "color": "#1c8c96",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Bass 2",
       "image": "Nexus/Bass_2.svg",
       "color": "#016e76",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Bass House",
@@ -150,25 +136,19 @@
       "name": "Bigtone Signature 1",
       "image": "Nexus/Bigtone_Signature_1.svg",
       "color": "#8032a6",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Bigtone Signature 2",
       "image": "Nexus/Bigtone_Signature_2.svg",
       "color": "#b034e1",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Bigtone Signature 3",
       "image": "Nexus/Bigtone_Signature_3.svg",
       "color": "#c136c0",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Bigtone Signature 4",
@@ -186,9 +166,7 @@
       "name": "Chillout Lounge",
       "image": "Nexus/Chillout_Lounge.svg",
       "color": "#943231",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Chiptunes",
@@ -296,9 +274,7 @@
       "name": "Classic Trance",
       "image": "Nexus/Classic_Trance.svg",
       "color": "#2eb374",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Commercial Dance",
@@ -310,17 +286,13 @@
       "name": "Commercial Electro",
       "image": "Nexus/Commercial_Electro.svg",
       "color": "#dcb529",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Commercial Electro 2",
       "image": "Nexus/Commercial_Electro_2.svg",
       "color": "#e9b015",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Crank",
@@ -362,9 +334,7 @@
       "name": "Dance 3",
       "image": "Nexus/Dance_3.svg",
       "color": "#4382e4",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Dance Drums",
@@ -382,9 +352,7 @@
       "name": "Dark Planet",
       "image": "Nexus/Dark_Planet.svg",
       "color": "#173fd1",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Deep House",
@@ -432,17 +400,13 @@
       "name": "Dubstep Electro",
       "image": "Nexus/Dubstep_Electro.svg",
       "color": "#efdb3c",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Dubstep Electro 2",
       "image": "Nexus/Dubstep_Electro_2.svg",
       "color": "#e8cc2b",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Dubstep Electro 3",
@@ -544,9 +508,7 @@
       "name": "Electrohouse Leads",
       "image": "Nexus/Electrohouse_Leads.svg",
       "color": "#ec630f",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Electrohouse Leads 2",
@@ -594,25 +556,19 @@
       "name": "FM",
       "image": "Nexus/FM.svg",
       "color": "#efaa1e",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "FM 2",
       "image": "Nexus/FM_2.svg",
       "color": "#ee8f16",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Freaky Machines",
       "image": "Nexus/Freaky_Machines.svg",
       "color": "#24ab46",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "French House",
@@ -626,33 +582,25 @@
       "name": "Future Arps",
       "image": "Nexus/Future_Arps.svg",
       "color": "#127dea",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Future Arps 2",
       "image": "Nexus/Future_Arps_2.svg",
       "color": "#1691e8",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy, NEW"]
     },
     {
       "name": "Future Arps 3",
       "image": "Nexus/Future_Arps_3.svg",
       "color": "#14a6e9",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Future Arps 4",
       "image": "Nexus/Future_Arps_4.svg",
       "color": "#2ac2ea",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Future Bass",
@@ -706,9 +654,7 @@
       "name": "FX",
       "image": "Nexus/FX.svg",
       "color": "#1588a7",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Guitars",
@@ -732,33 +678,25 @@
       "name": "HandsUp Electro Bass",
       "image": "Nexus/HandsUp_Electro_Bass.svg",
       "color": "#199499",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "HandsUp Electro Bass 2",
       "image": "Nexus/HandsUp_Electro_Bass_2.svg",
       "color": "#18b6a7",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "HandsUp Electro Bass 3",
       "image": "Nexus/HandsUp_Electro_Bass_3.svg",
       "color": "#2abec3",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "HandsUp Leads 1",
       "image": "Nexus/HandsUp_Leads_1.svg",
       "color": "#25a794",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Happy Hardcore",
@@ -782,9 +720,7 @@
       "name": "Hardstyle",
       "image": "Nexus/Hardstyle.svg",
       "color": "#b2df16",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Hardstyle 2",
@@ -802,9 +738,7 @@
       "name": "Hip Hop",
       "image": "Nexus/Hip_Hop.svg",
       "color": "#bd9617",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Hip Hop 2",
@@ -942,25 +876,19 @@
       "name": "House Vol 1",
       "image": "Nexus/House_Vol_1.svg",
       "color": "#c02a20",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "House Vol 2",
       "image": "Nexus/House_Vol_2.svg",
       "color": "#c03720",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "House Vol 3",
       "image": "Nexus/House_Vol_3.svg",
       "color": "#da531a",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Hyper Techno",
@@ -1002,17 +930,13 @@
       "name": "Kamui",
       "image": "Nexus/Kamui.svg",
       "color": "#ff4439",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Kamui 2",
       "image": "Nexus/Kamui_2.svg",
       "color": "#f85c4f",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Latin House",
@@ -1060,17 +984,13 @@
       "name": "Millennium Pop",
       "image": "Nexus/Millennium_Pop.svg",
       "color": "#f88a1a",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Millennium Pop 2",
       "image": "Nexus/Millennium_Pop_2.svg",
       "color": "#f07512",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Minimal House",
@@ -1118,33 +1038,25 @@
       "name": "NuElectro",
       "image": "Nexus/NuElectro.svg",
       "color": "#224de7",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Omicron",
       "image": "Nexus/Omicron.svg",
       "color": "#b218e2",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Omicron 2",
       "image": "Nexus/Omicron_2.svg",
       "color": "#c43af2",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Omicron 3",
       "image": "Nexus/Omicron_3.svg",
       "color": "#d064ff",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Perpetual Motion",
@@ -1162,17 +1074,13 @@
       "name": "Pop",
       "image": "Nexus/Pop.svg",
       "color": "#6e50ff",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Prog Tech House",
       "image": "Nexus/Prog_Tech_House.svg",
       "color": "#c56309",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Prog Tech House 2",
@@ -1208,25 +1116,19 @@
       "name": "Rauschwerk",
       "image": "Nexus/Rauschwerk.svg",
       "color": "#1f48de",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Rauschwerk 2",
       "image": "Nexus/Rauschwerk_2.svg",
       "color": "#453fde",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Rauschwerk 3",
       "image": "Nexus/Rauschwerk_3.svg",
       "color": "#7b45f8",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Reggaeton",
@@ -1310,9 +1212,7 @@
       "name": "Sound of the 90s",
       "image": "Nexus/Sound_of_the_90s.svg",
       "color": "#c68108",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Sound of the 90s Vol 2",
@@ -1354,33 +1254,25 @@
       "name": "Store n Forward",
       "image": "Nexus/Store_n_Forward.svg",
       "color": "#2b86ec",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Stratosphere",
       "image": "Nexus/Stratosphere.svg",
       "color": "#1438c6",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Stratosphere 2",
       "image": "Nexus/Stratosphere_2.svg",
       "color": "#005abb",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Stratosphere 3",
       "image": "Nexus/Stratosphere_3.svg",
       "color": "#02649d",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Studio Production 1",
@@ -1410,9 +1302,7 @@
       "name": "Swedish House",
       "image": "Nexus/Swedish_House.svg",
       "color": "#cf2048",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Swedish House 2",
@@ -1472,9 +1362,7 @@
       "name": "Trance Anthems",
       "image": "Nexus/Trance_Anthems.svg",
       "color": "#1d94dd",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Trance Anthems 2",
@@ -1486,17 +1374,13 @@
       "name": "Trance Elements",
       "image": "Nexus/Trance_Elements.svg",
       "color": "#2ecaff",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Trance Leads",
       "image": "Nexus/Trance_Leads.svg",
       "color": "#3ece5d",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Trance Leads 2",
@@ -1520,9 +1404,7 @@
       "name": "Trap",
       "image": "Nexus/Trap.svg",
       "color": "#bb8e0f",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     },
     {
       "name": "Trap 2",
@@ -1638,9 +1520,7 @@
       "name": "Vocoder",
       "image": "Nexus/Vocoder.svg",
       "color": "#4679da",
-      "flags": [
-        "Legacy"
-      ]
+      "flags": ["Legacy"]
     }
   ],
   "logos": [

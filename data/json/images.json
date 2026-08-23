@@ -588,7 +588,7 @@
       "name": "Future Arps 2",
       "image": "Nexus/Future_Arps_2.svg",
       "color": "#1691e8",
-      "flags": ["Legacy, NEW"]
+      "flags": ["Legacy", "NEW"]
     },
     {
       "name": "Future Arps 3",

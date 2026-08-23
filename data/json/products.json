@@ -11,6 +11,7 @@
             "logo": "header_nexus5.svg",
             "image": "Nexus/nexus5.mp4",
             "url": "https://refx.com/nexus/",
+            "subtitle": "Limitless",
             "expansion_urls": {
                 "Afro House": "https://refx.com/nexus/expansion/afro-house/",
                 "Afrobeats": "https://refx.com/nexus/expansion/afrobeats/",
@@ -164,14 +165,16 @@
             "name": "RIPPLER",
             "expansion_prefix": "Rippler/",
             "logo": "header_rippler.svg",
-            "image": "Rippler/rippler1.png"
+            "image": "Rippler/rippler1.png",
+            "subtitle": "Physically Modeled + Subtractive"
         },
         {
             "id": "vanguard",
             "name": "VANGUARD",
             "expansion_prefix": "Vanguard/",
             "logo": "header_vanguard.svg",
-            "image": "Vanguard/vanguard2.png"
+            "image": "Vanguard/vanguard2.png",
+            "subtitle": "The Legend Reborn"
         }
     ],
     "about": {

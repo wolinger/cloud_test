@@ -1502,7 +1502,8 @@
       "name": "Vintage Synths 4",
       "image": "Nexus/Vintage_Synths_4.svg",
       "color": "#ff6d2d",
-      "flags": []
+      "flags": [],
+      "drive_id": "1AbTuxG_OYLSc1ROl5YvmVrVgSaDFZtAU"
     },
     {
       "name": "Vocoder",

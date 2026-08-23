@@ -164,7 +164,7 @@
             "id": "rippler",
             "name": "RIPPLER",
             "expansion_prefix": "Rippler/",
-            "logo": "header_rippler.svg",
+            "logo": "header_rippler1.svg",
             "image": "Rippler/rippler1.png",
             "subtitle": "Physically Modeled + Subtractive"
         },
@@ -172,7 +172,7 @@
             "id": "vanguard",
             "name": "VANGUARD",
             "expansion_prefix": "Vanguard/",
-            "logo": "header_vanguard.svg",
+            "logo": "header_vanguard2.svg",
             "image": "Vanguard/vanguard2.png",
             "subtitle": "The Legend Reborn"
         }

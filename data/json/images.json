@@ -517,20 +517,20 @@
       "flags": []
     },
     {
-      "name": "Factory content",
+      "name": "Factory Content",
       "image": "Nexus/Factory_content.svg",
       "color": "#3958e0",
       "flags": []
     },
     {
       "name": "Factory Content R",
-      "image": "Rippler/Factory_Content_R.svg",
+      "image": "Rippler/Factory_content.svg",
       "color": "#5fa726",
       "flags": []
     },
     {
-      "name": "Factory Content V",
-      "image": "Vanguard/Factory_Content_V.svg",
+      "name": "Factory Content V2",
+      "image": "Vanguard/Factory_content.svg",
       "color": "#5fa726",
       "flags": []
     },
@@ -1554,11 +1554,11 @@
     },
     {
       "name": "header rippler",
-      "image": "Rippler/header_rippler.svg"
+      "image": "Rippler/header_rippler1.svg"
     },
     {
       "name": "header vanguard",
-      "image": "Vanguard/header_vanguard.svg"
+      "image": "Vanguard/header_vanguard2.svg"
     },
     {
       "name": "Nexus3",

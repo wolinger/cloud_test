@@ -1627,39 +1627,39 @@
   ],
   "logos": [
     {
-      "name": "header nexus",
+      "name": "header_nexus",
       "image": "Nexus/header_nexus.svg"
     },
     {
-      "name": "header nexus2",
+      "name": "header_nexus2",
       "image": "Nexus/header_nexus2.svg"
     },
     {
-      "name": "header nexus2hex",
+      "name": "header_nexus2hex",
       "image": "Nexus/header_nexus2hex.svg"
     },
     {
-      "name": "header nexus2old",
+      "name": "header_nexus2old",
       "image": "Nexus/header_nexus2old.svg"
     },
     {
-      "name": "header nexus3",
+      "name": "header_nexus3",
       "image": "Nexus/header_nexus3.svg"
     },
     {
-      "name": "header nexus4",
+      "name": "header_nexus4",
       "image": "Nexus/header_nexus4.svg"
     },
     {
-      "name": "header nexus5",
+      "name": "header_nexus5",
       "image": "Nexus/header_nexus5.svg"
     },
     {
-      "name": "header rippler",
+      "name": "header_rippler1",
       "image": "Rippler/header_rippler1.svg"
     },
     {
-      "name": "header vanguard",
+      "name": "header_vanguard2",
       "image": "Vanguard/header_vanguard2.svg"
     },
     {
@@ -1675,7 +1675,7 @@
       "image": "Nexus/Nexus5.svg"
     },
     {
-      "name": "refx logo",
+      "name": "refx_logo",
       "image": "Nexus/refx_logo.svg"
     }
   ]
